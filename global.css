@@ -1,0 +1,39 @@
+* {
+
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+    
+
+}
+
+body {
+    background-color: indigo;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
+}
+
+main {
+    background-color: rgb(24,26,27);;
+    max-width: 920px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+
+
+footer {
+    font-size:16px;
+    background-color:violet;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    max-width: 920px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
