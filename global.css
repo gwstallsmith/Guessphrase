@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: indigo;
+    background-color: rbg(20, 20, 20);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -16,18 +16,16 @@ body {
 }
 
 main {
-    background-color: rgb(24,26,27);;
+    background-color: rgb(100,100,100);;
     max-width: 920px;
     margin-left: auto;
     margin-right: auto;
     
 }
 
-
-
 footer {
     font-size:16px;
-    background-color:violet;
+    background-color:blue;
     color: white;
     padding: 20px;
     text-align: center;
@@ -36,4 +34,27 @@ footer {
     margin-right: auto;
 }
 
+.grid-container {
+    display:grid;
+    grid-template-columns:repeat(3, 1fr);
+    background-color:white;
 
+    margin:2%;
+
+}
+
+.grid-item {
+    background-color:grey;
+    text-align:center;
+    margin:2%;
+    
+    height:300px;
+
+    border-radius:45%;
+    border:5px solid;
+    border-color:black;
+
+    padding-top:50%;
+    padding-bottom:50%;
+
+}
