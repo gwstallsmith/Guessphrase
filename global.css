@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: rbg(20, 20, 20);
+    background-color: rgb(25,25,25);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -16,46 +16,173 @@ body {
 }
 
 main {
-    background-color: rgb(100,100,100);;
+    background-color:rgb(50,70,90);
     max-width: 920px;
     margin-left: auto;
     margin-right: auto;
-    
+    align-items: center;
+
+
     padding:2%;
+    border:5px solid;
+    border-color:rgb(70,120,160);
+
+
+    /* Taken from: https://projects.verou.me/css3patterns/#japanese-cube */
+    background-color: rgb(85, 85, 102); 
+    background-image: linear-gradient(30deg, rgb(50,50,70) 12%, transparent 12.5%, transparent 87%, rgb(50,50,70) 87.5%, rgb(50,50,70)),
+                      linear-gradient(150deg, rgb(50,50,70) 12%, transparent 12.5%, transparent 87%, rgb(50,50,70) 87.5%, rgb(50,50,70)),
+                      linear-gradient(30deg, rgb(50,50,70) 12%, transparent 12.5%, transparent 87%, rgb(50,50,70) 87.5%, rgb(50,50,70)),
+                      linear-gradient(150deg, rgb(50,50,70) 12%, transparent 12.5%, transparent 87%, rgb(50,50,70) 87.5%, rgb(50,50,70)),
+                      linear-gradient(60deg, rgb(120,120,140) 25%, transparent 25.5%, transparent 75%, rgb(120,120,140) 75%, rgb(120,120,140)),
+                      linear-gradient(60deg, rgb(120,120,140) 25%, transparent 25.5%, transparent 75%, rgb(120,120,140) 75%, rgb(120,120,140));
+    background-size: 80px 140px;
+    background-position: 0px 0px, 0px 0px, 40px 70px, 40px 70px, 0px 0px, 40px 70px;
 }
 
 footer {
     font-size:16px;
-    background-color:blue;
+    background-color:rgb(120,0,200);
     color: white;
     padding: 20px;
     text-align: center;
     max-width: 920px;
     margin-left: auto;
     margin-right: auto;
+    border:5px solid;
+    border-color:rgb(220,165,255);
+
+}
+
+button:active {
+    background: white;
+    -webkit-box-shadow: inset 0px 0px 10px white;
+       -moz-box-shadow: inset 0px 0px 10px white;
+            box-shadow: inset 0px 0px 10px white;
+     outline: none;
+
+     border-color: white;
+
+     background-color:rgb(40,40,40);
+
+}
+
+.text-bar {
+    text-align: center;
+    color:white;
+    background-color:rgb(40,40,40);
+  
+
+    margin-top:5%;
+    margin-bottom:5%;
+    
+    padding:10%;
+
+    font-size:32px;
+
+    border-radius:10%;
+
+    border:5px solid;
+    border-color:rgb(70,120,160);
+
+    box-shadow: 0px 10px 20px  black ;
+
 }
 
 .grid-container {
     display:grid;
     grid-template-columns:repeat(3, 1fr);
-    background-color:white;
 
-    margin:2%;
+    
+    margin-top:5%;
+    margin-bottom:5%;
 
 }
 
+
 .grid-item {
-    background-color:grey;
+    color:white;
+
+    font-size: 16px;
+
+    min-height: 100px;
+    height:75%;
+
+    background-color:rgb(40,40,40);
     text-align:center;
-    margin:2%;
+
     
-    height:300px;
+    margin-top:15%;
+    margin-bottom:15%;
 
-    border-radius:45%;
+    margin-left:5%;
+    margin-right:5%;
+
+    border-radius:40%;
     border:5px solid;
-    border-color:black;
+    border-color:rgb(70,120,160);
 
-    padding-top:50%;
-    padding-bottom:50%;
+
+    box-shadow: 0px 10px 20px  black ;
+
+}
+
+.points-container {
+
+    color:white;
+
+    font-size: 16px;
+
+    height:50%;
+
+    display:grid;
+    grid-template-columns:repeat(2, 1fr);
+
+    text-align:center;
+
+    
+
+    margin-left:5%;
+    margin-right:5%;
+
+
+}
+
+.points-item {
+    color:white;
+
+    font-size: 64px;
+
+    min-height: 100px;
+    height:75%;
+
+    background-color:rgb(40,40,40);
+    text-align:center;
+
+    
+    margin-top:15%;
+    margin-bottom:15%;
+
+    margin-left:5%;
+    margin-right:5%;
+
+    border-radius:40%;
+    border:5px solid;
+    border-color:rgb(70,120,160);
+
+    padding-top:10%;
+
+    box-shadow: 0px 10px 20px  black ;
+}
+
+
+.team-one{
+    border-color: rgb(255,0,132);
+    background-color: rgb(120,0,50);
+}
+
+.team-two{
+    border-color:rgb(0,180,140);
+    background-color:rgb(0,100,80);
 
 }

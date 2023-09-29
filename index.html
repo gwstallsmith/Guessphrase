@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, intial-scale=1.0">
-  <title>HI-C Fitness</title>
+  <title>Mimicho</title>
 
 
   <link rel="icon" type="image/x-icon" href="./assets/favicon.svg">
@@ -14,33 +14,43 @@
 
 <link rel="stylesheet" href="global.css">
 
-<body>
+<script src="game.js"></script>
+
+<body onload="main()">
   <main>
 
-    <div class="grid-container" style="grid-template-columns:repeat(1, 1fr)">
-      <div class="grid-item">
-        blah
-      </div>
+    <div class="text-bar" id="textBar">Select Category</div>
+
+    <div class="points-container">
+      <div class="points-item team-one">0</div>
+      <div class="points-item team-two">0</div>
+
     </div>
 
     <div class="grid-container">
-      <div class="grid-item">
-        blah
-      </div>
-      <div class="grid-item">
-        blah
-      </div>
-      <div class="grid-item">
-        blah
-      </div>
+      <button class="grid-item team-one">
+        Team 1
+      </button>
+      <button class="grid-item">
+        Go / Stop
+      </button>
+      <button class="grid-item team-two">
+        Team 2
+      </button>
     </div>
+
+    <div class="grid-container">
+      <br>
+      <button class="grid-item" onclick="nextButton()">
+        NEXT
+      </button>
+      <br>
+    </div>
+
 
 
   </main>
   <br>
 </body>
 
-<footer>
-  <p>&copy; 2023 Mimicho. All rights reserved.</p>
-</footer>
 </html>
