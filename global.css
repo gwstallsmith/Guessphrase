@@ -42,7 +42,7 @@ main {
 
 footer {
     font-size:16px;
-    background-color:rgb(120,0,200);
+    background-color:rgb(50,50,70);
     color: white;
     padding: 20px;
     text-align: center;
@@ -50,20 +50,18 @@ footer {
     margin-left: auto;
     margin-right: auto;
     border:5px solid;
-    border-color:rgb(220,165,255);
+    border-color:rgb(70,120,160);
 
 }
 
 button:active {
-    background: white;
-    -webkit-box-shadow: inset 0px 0px 10px white;
-       -moz-box-shadow: inset 0px 0px 10px white;
-            box-shadow: inset 0px 0px 10px white;
+    -webkit-box-shadow: inset 0px 0px 20px white;
+       -moz-box-shadow: inset 0px 0px 20px white;
+            box-shadow: inset 0px 0px 20px white;
      outline: none;
 
      border-color: white;
 
-     background-color:rgb(40,40,40);
 
 }
 
@@ -120,7 +118,35 @@ button:active {
 
     border-radius:40%;
     border:5px solid;
-    border-color:rgb(70,120,160);
+    border-color:white;
+
+
+    box-shadow: 0px 10px 20px  black ;
+
+}
+
+.next-button {
+    width:300px;
+
+    color:white;
+
+    font-size: 28px;
+
+    min-height: 100px;
+    height:75%;
+
+    background-color:rgb(40,40,40);
+    text-align:center;
+
+    
+    margin-top:15%;
+    margin-bottom:15%;
+
+    margin-left:5%;
+    margin-right:5%;
+
+    border-radius:45%;
+    border:5px solid;
 
 
     box-shadow: 0px 10px 20px  black ;

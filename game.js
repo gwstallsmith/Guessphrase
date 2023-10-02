@@ -5,32 +5,43 @@ let COUNTRIES = ["United States of America", "France", "China"];
 
 let MAX_SCORE = 7;
 
-let TEAM_ONE_SCORE = 0;
-let TEAM_TWO_SCORE = 0;
-
-let MODE = "Select";
-
-let categoryItr = 0;
+let GM
 
 
-function nextButton() {
-    if(MODE == "Select") {
-        document.getElementById("textBar").innerHTML = CATEGORIES[categoryItr];
-        categoryItr = (categoryItr + 1) % CATEGORIES.length;
-    } else if (MODE == "Round") {
+class GameManager {
+    constructor(mode) {
+        this.mode_ = mode;
+        this.teamOneScore_ = 0;
+        this.teamTwoScore_ = 0;
 
+        this.categoryItr_ = 0;
+    }
+
+    getTeamOneScore() { return this.teamOneScore_; }
+    
+    getTeamTwoScore() { return this.teamTwoScore_; }
+
+
+    nextButton() {
+        if(this.mode_ == "Select") {
+            document.getElementById("textBar").innerHTML = CATEGORIES[this.categoryItr_];
+            this.categoryItr_ = (this.categoryItr_ + 1) % CATEGORIES.length;
+        } else if (this.mode_ == "Round") {
+    
+        }
+    }
+
+    goStopButton() {
+        if(this.mode_ == "Select") {
+            document.getElementById("textBar").innerHTML;
+    
+            
+        } else if (this.mode_ == "Round") {
+    
+        }
     }
 }
 
-function goStopButton() {
-    if(MODE == "Select") {
-        document.getElementById("textBar").innerHTML;
-
-        
-    } else if (MODE == "Round") {
-
-    }
-}
 
 function playRound() {
     while(TEAM_ONE_SCORE < MAX_SCORE || TEAM_TWO_SCORE < MAX_SCORE) {
@@ -42,20 +53,12 @@ function playRound() {
 
 
 function reset() {
-    TEAM_ONE_SCORE = 0;
-    TEAM_TWO_SCORE = 0;
-    MODE = "Select";
+    GM = new GameManager("Select");
     document.getElementById("textBar").innerHTML = "Select Category";
 
 }
 
 function main() {
-
-
-
-    //playRound();
-
-
-    reset();
+    GM = new GameManager("Select");
 
 }

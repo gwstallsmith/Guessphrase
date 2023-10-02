@@ -19,19 +19,14 @@
 <body onload="main()">
   <main>
 
-    <div class="text-bar" id="textBar">Select Category</div>
+    <b><div class="text-bar" id="textBar">Select Category</div></b>
 
-    <div class="points-container">
-      <div class="points-item team-one">0</div>
-      <div class="points-item team-two">0</div>
-
-    </div>
 
     <div class="grid-container">
       <button class="grid-item team-one">
         Team 1
       </button>
-      <button class="grid-item">
+      <button class="grid-item" onclick="GM.goStopButton()">
         Go / Stop
       </button>
       <button class="grid-item team-two">
@@ -39,18 +34,24 @@
       </button>
     </div>
 
-    <div class="grid-container">
-      <br>
-      <button class="grid-item" onclick="nextButton()">
-        NEXT
-      </button>
-      <br>
+    <div class="points-container">
+      <div class="points-item team-one">0</div>
+      <div class="points-item team-two">0</div>
     </div>
+
+    <button class="next-button" onclick="GM.nextButton()">
+       NEXT
+    </button>
+
 
 
 
   </main>
   <br>
 </body>
+
+<footer>
+  &copy; 2023 Mimicho. All rights reserved.
+</footer>
 
 </html>
