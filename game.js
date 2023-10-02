@@ -46,14 +46,10 @@ class GameManager {
             } else {
                 this.category_ = selectText;
 
-                this.categoryArray_ = CATEGORIES[CATEGORY_MAP.find((element)=>{
-                    if(element[0] == selectText) {
-                        return element[1];
-                    }
-                })][1];
-                console.log(this.categoryArray_);
-
+                this.categoryArray_ = CATEGORIES[CATEGORY_MAP.find((element)=>{ return element[0] == selectText;})[1]];
                 this.mode_ = "Round";
+
+                console.log(this.categoryArray_)
                 // Start game with selected category
             }
     
@@ -81,6 +77,7 @@ function reset() {
 }
 
 function main() {
+    document.body.style.overflow='hidden';
     GM = new GameManager("Select");
 
 }
