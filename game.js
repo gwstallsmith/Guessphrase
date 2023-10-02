@@ -14,7 +14,10 @@ class GameManager {
         this.teamOneScore_ = 0;
         this.teamTwoScore_ = 0;
 
+        this.category_
         this.categoryItr_ = 0;
+
+        this.categoryArray_;
     }
 
     getTeamOneScore() { return this.teamOneScore_; }
@@ -32,8 +35,16 @@ class GameManager {
     }
 
     goStopButton() {
+        let selectText;
         if(this.mode_ == "Select") {
-            document.getElementById("textBar").innerHTML;
+            selectText = document.getElementById("textBar").innerHTML;
+            if(selectText == "Select Category") {
+                alert("Please Select a Category");
+            } else {
+                this.category_ = selectText;
+                this.mode_ = "Round";
+                // Start game with selected category
+            }
     
             
         } else if (this.mode_ == "Round") {
