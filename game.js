@@ -1,7 +1,10 @@
-let CATEGORIES = ["Fun and Games", "Countries", "Food"];
+let CATEGORY_MAP = [["Fun and Games", 0], ["Countries", 1], ["Food", 2]];
 
-let FUN_AND_GAMES = ["Baseball", "Football", "Bowling"];
-let COUNTRIES = ["United States of America", "France", "China"];
+let CATEGORIES = [["Baseball", "Football", "Bowling"],
+                  ["United States of America", "France", "China"],
+                  ["Hamburger", "Rice", "Omelet"]
+                 ];
+
 
 let MAX_SCORE = 7;
 
@@ -27,8 +30,8 @@ class GameManager {
 
     nextButton() {
         if(this.mode_ == "Select") {
-            document.getElementById("textBar").innerHTML = CATEGORIES[this.categoryItr_];
-            this.categoryItr_ = (this.categoryItr_ + 1) % CATEGORIES.length;
+            document.getElementById("textBar").innerHTML = CATEGORY_MAP[this.categoryItr_][0];
+            this.categoryItr_ = (this.categoryItr_ + 1) % CATEGORY_MAP.length;
         } else if (this.mode_ == "Round") {
     
         }
@@ -42,6 +45,14 @@ class GameManager {
                 alert("Please Select a Category");
             } else {
                 this.category_ = selectText;
+
+                this.categoryArray_ = CATEGORIES[CATEGORY_MAP.find((element)=>{
+                    if(element[0] == selectText) {
+                        return element[1];
+                    }
+                })][1];
+                console.log(this.categoryArray_);
+
                 this.mode_ = "Round";
                 // Start game with selected category
             }
