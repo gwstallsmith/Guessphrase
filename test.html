@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Countdown Timer</title>
+</head>
+<body>
+    <h1>Countdown Timer</h1>
+    <div id="timer">90</div>
+    <button id="startButton">Start</button>
+    <button id="stopButton">Stop</button>
+
+    <script>
+        let countdown = 90;
+        let intervalId = null; // To store the interval ID
+
+        const timerElement = document.getElementById('timer');
+        const startButton = document.getElementById('startButton');
+        const stopButton = document.getElementById('stopButton');
+
+        function updateCountdown() {
+            if (countdown > 0) {
+                countdown--;
+                timerElement.textContent = countdown;
+            } else {
+                clearInterval(intervalId);
+                timerElement.textContent = "Time's up!";
+            }
+        }
+
+        startButton.addEventListener('click', function () {
+            if (intervalId === null) {
+                intervalId = setInterval(updateCountdown, 1000);
+                startButton.disabled = true;
+                stopButton.disabled = false;
+            }
+        });
+
+        stopButton.addEventListener('click', function () {
+            if (intervalId !== null) {
+                clearInterval(intervalId);
+                intervalId = null;
+                startButton.disabled = false;
+                stopButton.disabled = true;
+            }
+        });
+    </script>
+</body>
+</html>
