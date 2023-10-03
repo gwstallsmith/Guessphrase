@@ -69,11 +69,12 @@ button:active {
     color:white;
     background-color:rgb(40,40,40);
   
+    min-height:175px;
 
     margin-top:5%;
     margin-bottom:5%;
     
-    padding:10%;
+    padding-top:10%;
 
     font-size:32px;
 
@@ -138,8 +139,9 @@ button:active {
     background-color:rgb(40,40,40);
     text-align:center;
 
-    margin-top:5%;
+    margin-bottom:5%;
 
+    
 
     border-radius:45%;
     border:5px solid;

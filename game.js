@@ -8,8 +8,34 @@ let CATEGORIES = [["Baseball", "Football", "Bowling"],
 
 let MAX_SCORE = 7;
 
-let GM
 
+class Timer {
+    constructor(seconds) {
+        this.seconds_ = seconds;
+        this.playingRound_ = false;
+    }
+
+    startTimer() {
+        if(this.seconds_ > 0) {
+            this.seconds_--;
+            console.log("timer" + this.seconds_);
+        } else {
+            clearInterval(interval);
+        }
+    }
+
+    stopTimer() {
+        if(this.seconds_ > 0) {
+            this.seconds_++
+            console.log("timer" + this.seconds_);
+        } else {
+            clearInterval(interval);
+        }
+    }
+}
+
+let GameTimer = new Timer(90);
+let interval = setInterval(GameTimer.startTimer(), 1000);
 
 class GameManager {
     constructor(mode) {
@@ -17,11 +43,15 @@ class GameManager {
         this.teamOneScore_ = 0;
         this.teamTwoScore_ = 0;
 
+        this.playingRound_ = false;
+
         this.category_
         this.categoryItr_ = 0;
 
         this.categoryArray_;
+
     }
+
 
     getTeamOneScore() { return this.teamOneScore_; }
     
@@ -48,21 +78,25 @@ class GameManager {
                 this.category_ = selectText;
 
                 this.categoryArray_ = CATEGORIES[CATEGORY_MAP.find((element)=>{ return element[0] == selectText;})[1]];
-                this.mode_ = "Round";
-                this.nextButton();
-
-                timer();
-                // Start timer
-
+                
+                this.mode_ = "Round"
+                GameTimer.startTimer();
+                document.getElementById("textBar").innerHTML = CATEGORY_MAP[this.categoryItr_][0];
+                this.categoryItr_ = (this.categoryItr_ + 1) % CATEGORY_MAP.length;
+    
             }    
         } else if (this.mode_ == "Round") {
-    
+            document.getElementById("textBar").innerHTML = "||"
+            
+
+            this.mode_ = "Select";
         }
     }
 
 
 
 }
+
 
 function timer(timerLength = 5000) {
     timeLeft = timerLength;
@@ -71,13 +105,15 @@ function timer(timerLength = 5000) {
 
 
 function reset() {
-    GM = new GameManager("Select");
+    GameMan = new GameManager("Select");
     document.getElementById("textBar").innerHTML = "Select Category";
 
 }
-
+let GameMan;
 function main() {
-    document.body.style.overflow='hidden';
-    GM = new GameManager("Select");
+    GameMan = new GameManager("Select");
 
+}
+function setPayload() {
+    document.body.style.overflow='hidden';
 }

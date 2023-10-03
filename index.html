@@ -13,7 +13,7 @@
 
 <script src="game.js"></script>
 
-<body onload="main()">
+<body onload="main();setPayload()">
   <main>
 
     <b><div class="text-bar" id="textBar">Select Category</div></b>
@@ -23,7 +23,7 @@
       <button class="grid-item team-one">
         Team 1
       </button>
-      <button class="grid-item" onclick="GM.goStopButton()">
+      <button class="grid-item" onclick="GameMan.goStopButton()">
         Go / Stop
       </button>
       <button class="grid-item team-two">
@@ -37,7 +37,7 @@
     </div>
 
     <div class="next-button-container">
-      <button class="next-button" onclick="GM.nextButton()">
+      <button class="next-button" onclick="GameMan.nextButton()">
         NEXT
       </button>
     </div>
