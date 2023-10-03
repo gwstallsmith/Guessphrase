@@ -3,7 +3,6 @@
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     box-sizing: border-box;
     
-
 }
 
 body {
@@ -92,8 +91,6 @@ button:active {
     grid-template-columns:repeat(3, 1fr);
 
     
-    margin-top:5%;
-    margin-bottom:5%;
 
 }
 
@@ -110,8 +107,6 @@ button:active {
     text-align:center;
 
     
-    margin-top:15%;
-    margin-bottom:15%;
 
     margin-left:5%;
     margin-right:5%;
@@ -125,12 +120,17 @@ button:active {
 
 }
 
+.next-button-container {
+    text-align: center;
+  }
+
 .next-button {
     width:300px;
 
+
     color:white;
 
-    font-size: 28px;
+    font-size: 24px;
 
     min-height: 100px;
     height:75%;
@@ -138,16 +138,11 @@ button:active {
     background-color:rgb(40,40,40);
     text-align:center;
 
-    
-    margin-top:15%;
-    margin-bottom:15%;
+    margin-top:5%;
 
-    margin-left:5%;
-    margin-right:5%;
 
     border-radius:45%;
     border:5px solid;
-
 
     box-shadow: 0px 10px 20px  black ;
 
@@ -186,8 +181,8 @@ button:active {
     text-align:center;
 
     
-    margin-top:15%;
-    margin-bottom:15%;
+    margin-top:10%;
+    margin-bottom:10%;
 
     margin-left:5%;
     margin-right:5%;
@@ -196,7 +191,7 @@ button:active {
     border:5px solid;
     border-color:rgb(70,120,160);
 
-    padding-top:10%;
+    padding-top:5%;
 
     box-shadow: 0px 10px 20px  black ;
 }

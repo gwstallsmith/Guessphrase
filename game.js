@@ -1,4 +1,4 @@
-let CATEGORY_MAP = [["Fun and Games", 0], ["Countries", 1], ["Food", 2]];
+let CATEGORY_MAP = [["Sports", 0], ["Countries", 1], ["Food", 2]];
 
 let CATEGORIES = [["Baseball", "Football", "Bowling"],
                   ["United States of America", "France", "China"],
@@ -33,7 +33,8 @@ class GameManager {
             document.getElementById("textBar").innerHTML = CATEGORY_MAP[this.categoryItr_][0];
             this.categoryItr_ = (this.categoryItr_ + 1) % CATEGORY_MAP.length;
         } else if (this.mode_ == "Round") {
-    
+            document.getElementById("textBar").innerHTML = this.categoryArray_[Math.floor(Math.random() * this.categoryArray_.length)];
+            
         }
     }
 
@@ -48,26 +49,25 @@ class GameManager {
 
                 this.categoryArray_ = CATEGORIES[CATEGORY_MAP.find((element)=>{ return element[0] == selectText;})[1]];
                 this.mode_ = "Round";
+                this.nextButton();
 
-                console.log(this.categoryArray_)
-                // Start game with selected category
-            }
-    
-            
+                timer();
+                // Start timer
+
+            }    
         } else if (this.mode_ == "Round") {
     
         }
     }
+
+
+
 }
 
-
-function playRound() {
-    while(TEAM_ONE_SCORE < MAX_SCORE || TEAM_TWO_SCORE < MAX_SCORE) {
-
-
-
-    }
+function timer(timerLength = 5000) {
+    timeLeft = timerLength;
 }
+
 
 
 function reset() {
