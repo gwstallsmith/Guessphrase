@@ -73,7 +73,7 @@ class Timer {
     }
 }
 
-let GameTimer = new Timer(5);
+let GameTimer = new Timer(60);
 
 class GameManager {
     constructor(mode) {
