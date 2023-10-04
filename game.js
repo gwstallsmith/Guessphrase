@@ -9,21 +9,36 @@ let CATEGORIES = [["Baseball", "Football", "Bowling"],
 let MAX_SCORE = 7;
 
 
+
+
 class Timer {
     constructor(seconds) {
         this.seconds_ = seconds;
         this.playingRound_ = false;
-        this.intervalId_ = null
+        this.intervalId_ = null;
+
+        this.tick_ = new Audio("assets/sounds/tick.mp3");
+        this.tock_ = new Audio("assets/sounds/tock.mp3")
     }
 
     updateCountdown() {
         if(this.seconds_ > 0) {
             this.seconds_--;
 
+            if(this.seconds_ % 2) {
+                document.getElementById("textBar").style = "border-color:red";
+                this.tick_.play();
+            } else {
+                document.getElementById("textBar").style = "border-color:white";
+                this.tock_.play();
+            }
+
+
             console.log(this.seconds_);
 
         } else {
             clearInterval(this.intervalId_);
+            document.getElementById("textBar").style = "border-color:rgb(70,120,160)"
         }
     }
 
@@ -109,7 +124,7 @@ class GameManager {
 
         } else if (this.mode_ == "Round") {
             document.getElementById("textBar").innerHTML = "| |"
-            
+            document.getElementById("textBar").style = "border-color:white;"
 
             this.stopRound();
 
