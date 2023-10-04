@@ -13,23 +13,26 @@ let MAX_SCORE = 7;
 
 class Timer {
     constructor(seconds) {
+        this.timerStart_ = seconds;
         this.seconds_ = seconds;
-        this.playingRound_ = false;
         this.intervalId_ = null;
 
         this.tick_ = new Audio("assets/sounds/tick.mp3");
-        this.tock_ = new Audio("assets/sounds/tock.mp3")
+        this.tock_ = new Audio("assets/sounds/tock.mp3");
+        this.alarm_ = new Audio("assets/sounds/alarm.mp3");
     }
+
+    getSeconds() { return this.seconds_ }
 
     tick() { this.tick_.play(); }
     tock() { this.tock_.play(); }    
 
     tickTock() {
         if(this.seconds_ % 2) {
-            document.getElementById("textBar").style = "border-color:red";
+            document.getElementById("textBar").style = "border-color:rgb(255,0,132)";
             this.tock()
         } else {
-            document.getElementById("textBar").style = "border-color:white";
+            document.getElementById("textBar").style = "border-color:rgb(0,180,140)";
             this.tick()
         }
     }
@@ -42,9 +45,11 @@ class Timer {
             this.tickTock();
             console.log(this.seconds_);
 
+            
         } else {
             clearInterval(this.intervalId_);
             document.getElementById("textBar").style = "border-color:rgb(70,120,160)"
+            this.alarm_.play();
         }
     }
 
@@ -60,9 +65,15 @@ class Timer {
             this.intervalId_ = null
         }
     }
+
+    reset() {
+        this.intervalId_ = null;
+        this.seconds_ = this.timerStart_;
+        GameMan.stopRound();
+    }
 }
 
-let GameTimer = new Timer(90);
+let GameTimer = new Timer(5);
 
 class GameManager {
     constructor(mode) {
@@ -77,6 +88,8 @@ class GameManager {
 
         this.categoryArray_;
 
+        this.hooray_ = new Audio("assets/sounds/hooray.mp3");
+
     }
 
     reset() {
@@ -84,7 +97,10 @@ class GameManager {
         this.teamOneScore_ = 0;
         this.teamTwoScore_ = 0;
 
-        this.playingRound_ = false;
+        this.getTeamOneScore();
+        this.getTeamTwoScore();
+        
+
         this.category_ = null;
         this.catgoryItr_ = 0;
         this.categoryArray = null;
@@ -94,18 +110,26 @@ class GameManager {
     }
 
 
-    getTeamOneScore() { return this.teamOneScore_; }
+    getTeamOneScore() {
+        document.getElementById("pointsTeamOne").innerHTML = this.teamOneScore_;
+        return this.teamOneScore_;
+    }
     
-    getTeamTwoScore() { return this.teamTwoScore_; }
+    getTeamTwoScore() {
+        document.getElementById("pointsTeamTwo").innerHTML = this.teamTwoScore_;
+        return this.teamTwoScore_;
+    }
 
     addPointTeamOne() {
-        this.teamOneScore_++;
+        ++this.teamOneScore_;
         document.getElementById("pointsTeamOne").innerHTML = this.teamOneScore_;
+        this.checkWin();
     }
 
     addPointTeamTwo() {
-        this.teamTwoScore_++;
+        ++this.teamTwoScore_;
         document.getElementById("pointsTeamTwo").innerHTML = this.teamTwoScore_;
+        this.checkWin();
     }
 
 
@@ -131,35 +155,59 @@ class GameManager {
                 }
                 this.startRound();
                 
-                document.getElementById("textBar").innerHTML = this.categoryArray_[Math.floor(Math.random() * this.categoryArray_.length)];
-                
-                this.mode_ = "Round"
     
             }    
 
         } else if (this.mode_ == "Round") {
-            document.getElementById("textBar").innerHTML = "| |"
-            document.getElementById("textBar").style = "border-color:white;"
 
             this.stopRound();
 
-            this.mode_ = "Select";
         }
     }
 
     startRound() {
-        this.playingRound_ = true;
+        if(GameTimer.getSeconds() == 0) {
+            GameTimer.reset();
+        }
+
+
         GameTimer.start();
         GameTimer.tickTock();
+
+        document.getElementById("textBar").innerHTML = this.categoryArray_[Math.floor(Math.random() * this.categoryArray_.length)];                
+        this.mode_ = "Round"
+
         document.getElementById("nextButton").disabled = false;
 
     }
     
     stopRound() {
-        this.playingRound_ = false;
-        GameTimer.stop();
-        GameTimer.tock();
-        document.getElementById("nextButton").disabled = true;
+        if(GameTimer.getSeconds() == 0) {
+            GameTimer.reset();
+            this.startRound();
+        } else {
+
+            GameTimer.stop();
+            GameTimer.tock();
+            document.getElementById("textBar").innerHTML = "| |"
+            document.getElementById("textBar").style = "border-color:rgb(70,120,160);"
+
+            document.getElementById("nextButton").disabled = true;
+            this.mode_ = "Select";
+        } 
+    }
+
+    checkWin() {
+        if(this.teamOneScore_ >= MAX_SCORE) {
+            document.getElementById("textBar").innerHTML = "CONGRATS TEAM ONE!"
+        }
+        if(this.teamTwoScore_ >= MAX_SCORE) {
+
+        }
+        if(this.teamOneScore_ >= MAX_SCORE || this.teamTwoScore_ >= MAX_SCORE) {
+            this.hooray_.play();
+            this.reset();
+        }
     }
 
 }
