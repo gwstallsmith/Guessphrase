@@ -24,8 +24,16 @@ class Timer {
 
     getSeconds() { return this.seconds_ }
 
-    tick() { this.tick_.play(); }
-    tock() { this.tock_.play(); }    
+    tick() {
+        this.tock_.pause();
+        this.tock_.currentTime = 0;
+        this.tick_.play();
+    }
+    tock() {
+        this.tick_.pause();
+        this.tick_.currentTime = 0;
+        this.tock_.play();
+    }    
 
     tickTock() {
         if(this.seconds_ % 2) {
