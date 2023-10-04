@@ -67,7 +67,7 @@ button:active {
 .text-bar {
     text-align: center;
     color:white;
-    background-color:rgb(40,40,40);
+    background-color:rgb(20,20,20);
   
     min-height:175px;
 
@@ -104,7 +104,7 @@ button:active {
     min-height: 100px;
     height:75%;
 
-    background-color:rgb(40,40,40);
+    background-color:rgb(20,20,20);
     text-align:center;
 
     
@@ -136,7 +136,7 @@ button:active {
     min-height: 100px;
     height:75%;
 
-    background-color:rgb(40,40,40);
+    background-color:rgb(20,20,20);
     text-align:center;
 
     margin-bottom:5%;
@@ -179,7 +179,7 @@ button:active {
     min-height: 100px;
     height:75%;
 
-    background-color:rgb(40,40,40);
+    background-color:rgb(20,20,20);
     text-align:center;
 
     
