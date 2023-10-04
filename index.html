@@ -20,20 +20,20 @@
 
 
     <div class="grid-container">
-      <button class="grid-item team-one">
+      <button class="grid-item team-one" onclick="GameMan.addPointTeamOne()">
         Team 1
       </button>
       <button class="grid-item" onclick="GameMan.goStopButton()">
         Go / Stop
       </button>
-      <button class="grid-item team-two">
+      <button class="grid-item team-two" onclick="GameMan.addPointTeamTwo()">
         Team 2
       </button>
     </div>
 
     <div class="points-container">
-      <div class="points-item team-one">0</div>
-      <div class="points-item team-two">0</div>
+      <div class="points-item team-one" id="pointsTeamOne">0</div>
+      <div class="points-item team-two" id="pointsTeamTwo">0</div>
     </div>
 
     <div class="next-button-container">

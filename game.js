@@ -21,19 +21,25 @@ class Timer {
         this.tock_ = new Audio("assets/sounds/tock.mp3")
     }
 
+    tick() { this.tick_.play(); }
+    tock() { this.tock_.play(); }    
+
+    tickTock() {
+        if(this.seconds_ % 2) {
+            document.getElementById("textBar").style = "border-color:red";
+            this.tock()
+        } else {
+            document.getElementById("textBar").style = "border-color:white";
+            this.tick()
+        }
+    }
+
     updateCountdown() {
         if(this.seconds_ > 0) {
             this.seconds_--;
 
-            if(this.seconds_ % 2) {
-                document.getElementById("textBar").style = "border-color:red";
-                this.tick_.play();
-            } else {
-                document.getElementById("textBar").style = "border-color:white";
-                this.tock_.play();
-            }
 
-
+            this.tickTock();
             console.log(this.seconds_);
 
         } else {
@@ -92,6 +98,16 @@ class GameManager {
     
     getTeamTwoScore() { return this.teamTwoScore_; }
 
+    addPointTeamOne() {
+        this.teamOneScore_++;
+        document.getElementById("pointsTeamOne").innerHTML = this.teamOneScore_;
+    }
+
+    addPointTeamTwo() {
+        this.teamTwoScore_++;
+        document.getElementById("pointsTeamTwo").innerHTML = this.teamTwoScore_;
+    }
+
 
     nextButton() {
         if(this.mode_ == "Select") {
@@ -107,8 +123,7 @@ class GameManager {
         if(this.mode_ == "Select") {
             selectText = document.getElementById("textBar").innerHTML;
             if(selectText == "Select Category") {
-                alert("Please Select a Category");
-
+                document.getElementById("textBar").innerHTML = "SELECT CATEGORY"
             } else {
                 if(!this.categoryArray_) {
                     this.category_ = selectText;
@@ -135,6 +150,7 @@ class GameManager {
     startRound() {
         this.playingRound_ = true;
         GameTimer.start();
+        GameTimer.tickTock();
         document.getElementById("nextButton").disabled = false;
 
     }
@@ -142,6 +158,7 @@ class GameManager {
     stopRound() {
         this.playingRound_ = false;
         GameTimer.stop();
+        GameTimer.tock();
         document.getElementById("nextButton").disabled = true;
     }
 
