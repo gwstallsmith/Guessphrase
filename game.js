@@ -86,7 +86,7 @@ class Timer {
     }
 }
 
-let GameTimer = new Timer(60);
+let GameTimer = new Timer(5);
 
 class GameManager {
     constructor(mode) {
@@ -116,7 +116,7 @@ class GameManager {
 
         this.category_ = null;
         this.catgoryItr_ = 0;
-        this.categoryArray = null;
+        this.categoryArray_ = null;
 
         document.getElementById("textBar").innerHTML = "Select Category";
 
