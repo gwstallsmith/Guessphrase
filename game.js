@@ -1,13 +1,31 @@
-let CATEGORY_MAP = [["Sports", 0], ["Countries", 1], ["Food", 2]];
+let CATEGORY_MAP = [
+                    ["Sports", 0],
+                    ["Countries", 1],
+                    ["Food / Drinks", 2],
+                    ["Movies", 3],
+                    ["Songs", 4],
+                    ["Animals", 5],
+                    ["Plants", 6],
+                    ["Jobs", 7],
+                    ["Brands", 8],
+                    ["Celebrities", 9]
+                   ];
 
+                   // After dark
+                   // Sex
+                   // Drugs
+                   // Crimes
 let CATEGORIES = [
-    
                   ["Baseball", "Football", "Bowling", "Dance", "Skateboarding", "Archery", "Snowboarding", "Snow Skiing", "Water Skiing", "Surfing", "Cricket", "Softball", "Cycling", "Hiking", "Rock Climbing", "Ice Climbing", "BMX", "Polo", "Wresting", "Boxing", "Fencing", "Golf", "Disc Golf", "Gymnastics", "Curling", "Ice Skating", "Roller Blading", "Hurdles", "Skeet Shooting", "Paintball", "Arm Wrestling", "Powerlifting", "Fishing", "Swimming", "Scuba Diving", "Diving", "Chess Boxing", "Horse Racing", "Nascar Racing", "F1 Racing", "Hunting", "Bull Riding", "Racket Ball", "Hand Ball", "Basketball", "Rugby", "Hockey", "Discus Throw", "Shot Put", "Football (Soccer)", "Bad Minton", "Tennis", "Pickleball", "Ping Pong", "Roller Skating", "Dodge Ball"],
-
                   ["Afghanistan", "Albania", "Algeria", "Andorra", "Angola", "Anguilla", "Antigua & Barbuda", "Argentina", "Armenia", "Australia", "Austria", "Azerbaijan", "Bahamas", "Bahrain", "Bangladesh", "Barbados", "Belarus", "Belgium", "Belize", "Benin", "Bermuda", "Bhutan", "Bolivia", "Bosnia & Herzegovina", "Botswana", "Brazil", "Brunei", "Bulgaria", "Burkina Faso", "Burundi", "Cambodia", "Cameroon", "Canada", "Cape Verde", "Cayman Islands", "Central African Republic", "Chad", "Chile", "China", "Colombia", "Comoros", "Congo", "Democratic Republic of The Congo", "Costa Rica", "Croatia", "Cuba", "Cyprus", "Czech Republic", "Denmark", "Djibouti", "Dominica", "Dominican Republic", "Ecuador", "Egypt", "El Salvador", "Equatorial Guinea", "Eritrea", "Estonia", "Eswatini", "Ethiopia", "Fiji", "Finland", "France", "French Guiana", "Gabon", "Republic of The Gambia", "Georgia", "Germany", "Ghana", "Great Britain", "Greece", "Grenada", "Guadeloupe", "Guatemala", "Guinea", "Guinea-Bissau", "Guyana", "Haiti", "Honduras", "Hungary", "Iceland", "India", "Indonesia", "Iran", "Iraq", "Israel", "Italy", "Ivory Coast (Cote d'Ivoire)", "Jamaica", "Japan", "Jordan", "Kazakhstan", "Kenya", "North Korea", "South Korea", "Kosovo", "Kuwait", "Kyrgyz Republic (Kyrgyzstan)", "Laos", "Latvia", "Lebanon", "Lesotho", "Liberia", "Libya", "Liechtenstein", "Lithuania", "Luxembourg", "Madagascar", "Malawi", "Malaysia", "Maldives", "Mali", "Malta", "Mauritania", "Mauritius", "Mexico", "Moldova", "Monaco", "Mongolia", "Montenegro", "Montserrat", "Morocco", "Mozambique", "Myanmar/Burma", "Namibia", "Nepal", "Netherlands", "New Zealand", "Nicaragua", "Niger", "Nigeria", "North Macedonia", "Norway", "Oman", "Pakistan", "Panama", "Papua New Guinea", "Paraguay", "Peru", "Philippines", "Poland", "Portugal", "Puerto Rico", "Qatar", "Romania", "Russia", "Rwanda", "Saint Kitts and Nevis", "Saint Lucia", "Saint Vincent and the Grenadines", "Samoa", "Sao Tome and Principe", "Saudi Arabia", "Senegal", "Serbia", "Seychelles", "Sierra Leone", "Singapore", "Slovak Republic (Slovakia)", "Slovenia", "Solomon Islands", "Somalia", "South Africa", "South Sudan", "Spain", "Sri Lanka", "Sudan", "Suriname", "Sweden", "Switzerland", "Syria", "Tajikistan", "Tanzania", "Thailand", "Timor Leste", "Togo", "Trinidad & Tobago", "Tunisia", "Türkiye (Turkey)", "Turkmenistan", "Turks & Caicos Islands", "Uganda", "Ukraine", "United Arab Emirates", "United States of America (USA)", "Uruguay", "Uzbekistan", "Venezuela", "Vietnam", "Yemen", "Zambia", "Zimbabwe"],
-
-                  ["Hamburger", "Rice", "Omelet"]
-
+                  ["Asparagus", "Apples", "Avacado", "Almond", "Arugala", "Artichoke", "Applesauce", "Apple juice", "Avocado", "Bacon", "Black Beans", "Bagels", "Baked Beans", "BBQ", "Bison", "Beer", "Bisque", "Bread", "Broccoli", "Buritto", "Babaganoosh", "Cabbage", "Cake", "Carrots", "Celery", "Cheese", "Chicken", "Catfish", "Chips", "Chocolate", "Chowder", "Clams", "Coffee", "Cookies", "Corn", "Cupcakes", "Crab", "Curry", "Cereal", "Chimichanga", "Dates", "Duck", "Dumplings", "Donuts", "Eggs", "Enchilada", "Eggrolls", "English Muffins", "Edimame", "Fajita", "Falafel", "Salmon", "Tuna", "fondu", "French Toast", "Garlic", "Ginger", "Gnocchi", "Goose", "Granola", "Grapes", "Green Beans", "Guacamole", "Gumbo", "Grits", "Graham Crackers", "Ham", "Hamburger", "Honey", "Hash Browns", "Hot Dogs", "Hummus", "Ice Cream", "Jambalaya", "Jelly / Jam", "Jerky", "Jalapeño", "Kale", "Kabobs", "Ketchup", "Kiwi", "Lobster", "Lamb", "Lasagna", "Meatballs", "Milk", "Milkshake", "Noodles", "Pizza", "Pepperoni", "Pancakes", "Quesadilla", "Quiche", "Reuben", "Spinach", "Spaghetti", "Tater Tots", "Toast", "Venison", "Waffles", "Yogurt", "Ziti", "Zucchini"],
+                  ["The Wizard of Oz"],
+                  ["What is Love"],
+                  ["Dog"],
+                  ["Tree"],
+                  ["Plumber"],
+                  ["Nike"],
+                  ["Johnny Depp"]
                  ];
 
 
@@ -86,7 +104,7 @@ class Timer {
     }
 }
 
-let GameTimer = new Timer(5);
+let GameTimer = new Timer(60);
 
 class GameManager {
     constructor(mode) {
