@@ -37,21 +37,17 @@ main {
                       linear-gradient(60deg, rgb(120,120,140) 25%, transparent 25.5%, transparent 75%, rgb(120,120,140) 75%, rgb(120,120,140));
     background-size: 80px 140px;
     background-position: 0px 0px, 0px 0px, 40px 70px, 40px 70px, 0px 0px, 40px 70px;
+
+    color:white;
 }
 
-footer {
-    font-size:16px;
-    background-color:rgb(50,50,70);
-    color: white;
-    padding: 20px;
+.header {
     text-align: center;
-    max-width: 920px;
-    margin-left: auto;
-    margin-right: auto;
-    border:5px solid;
-    border-color:rgb(70,120,160);
-
+    font-size: 24px;
+    background-image: none;
+    background-color:rgb(50,50,70);
 }
+
 
 button:active {
     -webkit-box-shadow: inset 0px 0px 20px white;
@@ -71,14 +67,12 @@ button:active {
   
     min-height:175px;
 
-    margin-top:5%;
     margin-bottom:5%;
     
     padding:5%;
 
     font-size:36px;
 
-    border-radius:10%;
 
     border:5px solid;
     border-color:rgb(70,120,160);
@@ -112,7 +106,7 @@ button:active {
     margin-left:5%;
     margin-right:5%;
 
-    border-radius:40%;
+    border-radius:5%;
     border:5px solid;
     border-color:white;
 
@@ -143,7 +137,7 @@ button:active {
 
     
 
-    border-radius:45%;
+    border-radius:5%;
     border:5px solid;
 
     box-shadow: 0px 10px 20px  black ;
@@ -189,7 +183,7 @@ button:active {
     margin-left:5%;
     margin-right:5%;
 
-    border-radius:40%;
+    border-radius:5%;
     border:5px solid;
     border-color:rgb(70,120,160);
 
@@ -208,4 +202,35 @@ button:active {
     border-color:rgb(0,180,140);
     background-color:rgb(0,100,80);
 
+}
+
+.grid-footer-container {
+    display:grid;
+    grid-template-columns:repeat(2, 1fr);
+    background-color:rgb(50,50,70);
+    border-radius:5%;
+    margin-top:2%;
+
+}
+
+.grid-footer-item {
+    color:white;
+
+
+    background-color:rgb(20,20,20);
+    text-align:center;
+
+    
+
+    border:2px solid;
+    border-color:white;
+
+
+}
+
+.menu {
+    font-size:16px;
+    background-image: none;
+    background-color:rgb(50,50,70);
+    padding-right:10%;
 }
