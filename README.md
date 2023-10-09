@@ -47,16 +47,6 @@ The game is played in teams. Each team takes turns describing a given phrase wit
 
 Detailed instructions on how to play can be found within the game itself.
 
-## Contributing
-
-Contributions to the Guessphrase project are welcome! If you're interested in contributing:
-
-1. Fork the repository.
-
-2. Make your enhancements or additions to the game.
-
-3. Submit a pull request, describing the changes you've made and their impact on the game.
-
 ## License
 
 This project is licensed under the [MIT License](LICENSE). Feel free to use, modify, and share it for recreational and non-commercial purposes.
