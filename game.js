@@ -287,7 +287,7 @@ function howToPlay() {
 }
 
 function checkSettings() {
-    let nsfw = document.getElementById("nsfw").value;
+    let nsfw = document.getElementById("nsfw").defaultChecked;
     console.log(nsfw);
     let timerLength;
     let maxScore;
