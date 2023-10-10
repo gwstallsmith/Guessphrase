@@ -28,12 +28,6 @@ let CATEGORIES = [
                   ["Johnny Depp"]
                  ];
 
-
-let MAX_SCORE = 7;
-
-
-
-
 class Timer {
     constructor(seconds) {
         this.timerStart_ = seconds;
@@ -104,11 +98,10 @@ class Timer {
     }
 }
 
-let GameTimer = new Timer(60);
 
 class GameManager {
-    constructor(mode) {
-        this.mode_ = mode;
+    constructor() {
+        this.mode_ = "Select";
         this.teamOneScore_ = 0;
         this.teamTwoScore_ = 0;
 
@@ -243,12 +236,16 @@ class GameManager {
 
 }
 
-
+let MAX_SCORE = 7;
+let TIMER_LENGTH = 60;
 
 
 let GameMan;
+let GameTimer;
 function main() {
-    GameMan = new GameManager("Select");
+    GameMan = new GameManager();
+    GameTimer = new Timer(TIMER_LENGTH);
+
 }
 
 function setPayload() {
@@ -270,6 +267,8 @@ function settings() {
         document.getElementById('howToPlay').style = "display:none;"
         document.getElementById('settings').style = "display:none;"
     }
+    checkSettings();
+    main();
 }
 
 let openHTP = false;
@@ -285,4 +284,19 @@ function howToPlay() {
         document.getElementById('howToPlay').style = "display:none;"
         document.getElementById('settings').style = "display:none;"
     }
+}
+
+function checkSettings() {
+    let nsfw = document.getElementById("nsfw").value;
+    console.log(nsfw);
+    let timerLength;
+    let maxScore;
+
+    if(timerLength) {
+        TIMER_LENGTH = timerLength;
+    }
+    if(maxScore) {
+        MAX_SCORE = maxScore;
+    }
+
 }

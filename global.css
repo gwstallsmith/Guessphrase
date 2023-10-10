@@ -237,3 +237,7 @@ button:active {
     padding-right:10%;
 }
 
+.settingsInput {
+    float:right;
+    max-width:100px;
+}
