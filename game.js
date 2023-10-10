@@ -161,7 +161,6 @@ class GameManager {
 
 
     nextButton() {
-        console.log(this.mode_ + "bruh")
         if(this.mode_ == "Select") {
             document.getElementById("textBar").innerHTML = CATEGORY_MAP[this.categoryItr_][0];
             let nsfwOffset = nsfw ? 0 : 3
@@ -303,5 +302,4 @@ function checkSettings() {
     if(maxScore) {
         MAX_SCORE = maxScore;
     }
-
 }

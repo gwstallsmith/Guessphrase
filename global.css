@@ -30,7 +30,6 @@ main {
 
 
     /* Taken from: https://projects.verou.me/css3patterns/#japanese-cube */
-    background-color: rgb(85, 85, 102); 
     background-image: linear-gradient(30deg, rgb(50,50,70) 12%, transparent 12.5%, transparent 87%, rgb(50,50,70) 87.5%, rgb(50,50,70)),
                       linear-gradient(150deg, rgb(50,50,70) 12%, transparent 12.5%, transparent 87%, rgb(50,50,70) 87.5%, rgb(50,50,70)),
                       linear-gradient(30deg, rgb(50,50,70) 12%, transparent 12.5%, transparent 87%, rgb(50,50,70) 87.5%, rgb(50,50,70)),
