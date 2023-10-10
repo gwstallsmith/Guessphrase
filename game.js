@@ -8,7 +8,10 @@ let CATEGORY_MAP = [
                     ["Plants (WIP)", 6],
                     ["Jobs (WIP)", 7],
                     ["Brands (WIP)", 8],
-                    ["Celebrities (WIP)", 9]
+                    ["Celebrities (WIP)", 9],
+                    ["Sex (WIP)", 10],
+                    ["Drugs (WIP)", 11],
+                    ["Crimes (WIP)", 12]
                    ];
 
                    // After dark
@@ -105,12 +108,10 @@ class GameManager {
         this.teamOneScore_ = 0;
         this.teamTwoScore_ = 0;
 
-        this.playingRound_ = false;
-
-        this.category_
+        this.category_ = null;
         this.categoryItr_ = 0;
 
-        this.categoryArray_;
+        this.categoryArray_ = null;
 
         this.hooray_ = new Audio("assets/sounds/hooray.mp3");
 
@@ -130,6 +131,8 @@ class GameManager {
         this.categoryArray_ = null;
 
         document.getElementById("textBar").innerHTML = "Select Category";
+
+        main();
 
     }
 
@@ -158,9 +161,11 @@ class GameManager {
 
 
     nextButton() {
+        console.log(this.mode_ + "bruh")
         if(this.mode_ == "Select") {
             document.getElementById("textBar").innerHTML = CATEGORY_MAP[this.categoryItr_][0];
-            this.categoryItr_ = (this.categoryItr_ + 1) % CATEGORY_MAP.length;
+            let nsfwOffset = nsfw ? 0 : 3
+            this.categoryItr_ = (this.categoryItr_ + 1) % (CATEGORY_MAP.length - nsfwOffset);
         } else if (this.mode_ == "Round") {
             document.getElementById("textBar").innerHTML = this.categoryArray_[Math.floor(Math.random() * this.categoryArray_.length)];
         }
@@ -242,10 +247,10 @@ let TIMER_LENGTH = 60;
 
 let GameMan;
 let GameTimer;
+
 function main() {
     GameMan = new GameManager();
     GameTimer = new Timer(TIMER_LENGTH);
-
 }
 
 function setPayload() {
@@ -269,6 +274,7 @@ function settings() {
     }
     checkSettings();
     main();
+
 }
 
 let openHTP = false;
@@ -285,12 +291,11 @@ function howToPlay() {
         document.getElementById('settings').style = "display:none;"
     }
 }
-
+let nsfw = false;
 function checkSettings() {
-    let nsfw = document.getElementById("nsfw").defaultChecked;
-    console.log(nsfw);
-    let timerLength;
-    let maxScore;
+    nsfw = document.getElementById('nsfw').checked;
+    let timerLength = parseInt(document.getElementById('timerLength').value);
+    let maxScore = parseInt(document.getElementById('maxScore').value);
 
     if(timerLength) {
         TIMER_LENGTH = timerLength;
