@@ -310,7 +310,7 @@ function checkSettings() {
     if(nsfw) {
         document.getElementById("light").disabled = true;
         document.getElementById("dark").disabled = false;
-        document.getElementById("title").innerHTML = "Guessphrase ~ After Dark"
+        document.getElementById("title").innerHTML = "Guessphrase After Dark"
 
     } else {
         document.getElementById("light").disabled = false;
