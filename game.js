@@ -130,6 +130,7 @@ class GameManager {
         this.category_ = null;
         this.catgoryItr_ = 0;
         this.categoryArray_ = null;
+        document.getElementById("nextButton").disabled = false;
 
     }
 
