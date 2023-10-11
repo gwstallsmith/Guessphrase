@@ -222,7 +222,7 @@ class GameManager {
             GameTimer.stop();
             GameTimer.tock();
             document.getElementById("textBar").innerHTML = "| |"
-            document.getElementById("textBar").style = "border-color:rgb(70,120,160);"
+            document.getElementById("textBar").style = nsfw ? "border-color:rgb(200,0,40);" : "border-color:rgb(70,120,160);"
 
             document.getElementById("nextButton").disabled = true;
             this.mode_ = "Select";
