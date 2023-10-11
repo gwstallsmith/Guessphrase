@@ -1,256 +1,75 @@
-Smells Like Teen Spirit
-ImagineWater
-One
-Billie Jean
-Bohemian Rhapsody
-Hey Jude
-Like A Rolling Stone
-I Can't Get No Satisfaction
-God Save The Queen
-Sweet Child O'Mine
-London Calling
-Waterloo Sunset
-Hotel California
-Your Song
-Stairway To Heaven
-The Twist
-Live Forever
-I Will Always Love You
-Life On Mars?
-Heartbreak Hotel
-Over The Rainbow
-What's Goin' On 
-Born To Run
-Be My Baby
-Creep
-Bridge Over Troubled Water
-Respect
-Family Affair
-Dancing Queen
-Good Vibrations
-Purple Haze
-Yesterday
-Jonny B Good
-No Woman No Cry 
-Hallelujah
-Every Breath You Take
-A Day In The Life
-Stand By Me
-Papa's Got A Brand New Bag
-Gimme Shelter
-What'd I Say
-Sultans Of Swing
-God Only Knows
-You've Lost That Lovin' Feeling
-My Generation
-Dancing In The Street
-When Doves Cry
-A Change Is Gonna Come
-River Deep Mountain High
-Best Of My Love
-Stronger
-Baby Love
-Truth Hurts
-WIthout You
-Where Is My Mind?
-So What
-Welcome to the Jungle
-Old Town Road
-Cannonball
-House of Balloons
-Cranes in the Sky
-A Milli
-Buddy Holly
-Bad Romance
-Just a Friend
-Oye Como Va
-Back That Azz Up
-Our Lips Are Sealed
-Rhythm Nation
-Move On Up
-The House of the Rising Sun
-Come as You Are
-Never Too Much
-Get Lucky
-Help Me
-No Ordinary Love
-Loser
-Livin' on a Prayer
-Summertime Sadness 
-White Rabbit
-Bam Bam
-Africa 
-Bad and Boujee
-Powderfinger
-(Don't Fear) The Reaper
-Tyrone
-Help!
-In Da Club
-Sugar, We're Goin Down
-If I Ain't Got You
-La Vida Es un Carnaval
-Passionate Kisses
-Call Me Maybe
-Limelight
-Under Pressure
-Sign of the Times
-Rapper's Delight
-Super Bass
-Mannish Boy
-Flava in Ya Ear (Remix)
-California Dreamin'
-Fantasy
-Green Onions
-Uptown Funk
-Alive
-Enjoy the Silence
-Gloria
-Buffalo Stance
-Heavy Metal Drummer
-Everlong
-Free Bird
-Amor Prohibido
-Rock and Roll All Nite
-Lovely Day
-Ain't Nobobdy
-Go Your Own Way
-Station to Station
-You Make Me Feel (Mighty Real)
-Hungry Like the Wolf
-Bring the Noise
-Alison
-Grace
-Say It Loud (I'm Black and I'm Proud)
-Fix You
-Springsteen
-Enter Sandman
-Brass in Pocket
-Party Up (Up in Here)
-Personality Crisis
-Lola
-I'm Coming Out
-I Like It
-Redbone
-Paper Bag
-Typical Girls
-Radiation Vibe
-Mr. Brightside
-Pictures of You
-Mama Tried
-Up on the Roof
-Be Thankful for What You Got
-Hotline Bling
-I Can't Make You Love Me
-Bennie and the Jets
-Peggy Sue
-Just What I Needed
-Black Hole Sun
-Thinkin Bout You
-Da Doo Ron Ron
-God Save the Queen
-Box of Rain
-Could You Be Loved
-Merry Go Round
-The Harder They Come
-Little Red Corvette
-Killing Me Softly With His Song
-Because the Night
-Blank Space
-Surrender
-Don't Leave Me This Way
-Rock With You
-Sweet Dreams (Are Made of This)
-It Was a Good Day
-Angel From Montgomery
-Time of the Season
-Virginia Plain
-Heartbreak Hotel
-Dynamite
-It's Too Late
-Iron Man
-What a Fool Believes
-Promised land
-I'm a Believer
-1999
-Paranoid
-Believe
-She's Gone
-Ripple
-Papa Was a Rollin' Stone
-Umbrella
-Please Mr. Postman
-Big Poppa
-Safaera
-Under the Bridge
-Real Love
-Portions for Foxes
-Lust for Life
-All I Have to Do is Dream
-After the Gold Rush
-California Love
-Hound Dog
-Visions of Johanna
-Leader of the Pack
-Hotel California
-Light My Fire
-Ain't No Sunshine
-Divorce Song
-Crazy
-Chain of Fools
-Every Breath You Take
-No Scrubs
-Wish You Were Here
-Night Moves
-Good Times
-Tangled Up in Blue
-Bridge Over Troubled Water
-September
-Blitzkrieg Bop
-Jolene
-One
-Stairway to Heaven
-Running Up That Hill
-The Message
-Y.M.C.A.
-The Weight
-Work It
-Like a Prayer
-Good Vibrations
-I Feel Love
-Walk on By
-Gasolina
-Doo Wop (That Thing)
-Idioteque
-Tiny Dancer
-Paper Planes
-Alright
-Billie Jean
-My Girl
-All Along the Watchtower
-Ms. Jackson
-So Fresh, So Clean
-Seven Nation Army
-Tutti-Frutti
-Juicy
-Hypnotize
-Royals
-Team
-Nuthin' But a 'G' Thang
-Once in a Lifetime
-Born to Run
-Runaway
-A Day in the Life
-Heroes
-Imagine
-Purple Rain
-Bohemian Rhapsody
-Crazy in Love
-I Want to Hold Your Hand
-Gimme Shelter
-Superstition
-Hey Ya!
-Dreams
-What's Going On
-Smells Like Teen Spirit
-Come As You Are
-Fight the Power
+Almond
+Bamboo
+Banana
+Blackberry
+Blueberry
+Brier
+Cabbage
+Carrot
+Cherry
+Chestnut
+Clover
+Coconut
+Cotton
+Daisy
+Dogwood
+Durian
+Eucalyptus
+Evergreen
+Ferns
+Fennel
+Fig
+Flax
+Garlic
+Grapefruit
+Grapevine
+Grass
+Harlequin
+Hemp
+Ivy
+Juniper
+Leek
+Lettuce
+Lilac
+Magnolia
+Maize
+Mango
+Maple
+Mesquite
+Milkweed
+Nettle
+Nightshade
+Oak tree
+Oliv
+Orange
+Parsley
+Parsnip
+Pine
+Pineapple
+Pistachio
+Plantain
+Poison ivy
+Poppy
+Potato
+Raspberry
+Rice
+Rhubarb
+Saffron
+Rosemarry
+Rye
+Strawberry
+Sugarcane
+Sunflower
+Plum
+Sweet potato
+Sycamore
+Tea
+Thistle
+Tomato
+Tobacco
+Thyme
+Tulip
+Vanilla
+Walnut
+Wheat
+Yam
