@@ -9,13 +9,14 @@
 </head>
 
 
-<link rel="stylesheet" href="global.css">
+<link id="light" rel="stylesheet" href="light.css">
+<link id="dark" rel="stylesheet" href="dark.css">
 
 <script src="game.js"></script>
 
 <body onload="main();setPayload()">
   <main class="header" id="header">
-    <i><b>Guessphrase</b></i>
+    <i><b id="title">Guessphrase</b></i>
     <br>
     <div class="grid-footer-container">
       <button class="grid-footer-item" onclick="howToPlay()">
@@ -28,7 +29,7 @@
   </main>
 
   <main class="menu" id="settings">
-    After Dark Mode (NSFW) <input class="settingsInput" type="checkbox" id="nsfw"><br><br>
+    After Dark (NSFW) <input class="settingsInput" type="checkbox" id="nsfw"><br><br>
     Timer Seconds <input class="settingsInput" type="number" id="timerLength" name="quantity" min="1" step="1" value="60"><br><br>
     Max Score <input class="settingsInput" type="number" id="maxScore" name="quantity" min="1" step="1" value="7"><br><br>
     <button class="grid-footer-item"onclick="settings()">

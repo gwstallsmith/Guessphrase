@@ -263,6 +263,10 @@ function setPayload() {
     document.body.style.overflow='hidden';
     document.getElementById('settings').style = "display:none;"
     document.getElementById('howToPlay').style = "display:none;"
+
+    document.getElementById("light").disabled = false;
+    document.getElementById("dark").disabled = true;
+
 }
 
 let openSettings = false;
@@ -303,6 +307,20 @@ function checkSettings() {
     let timerLength = parseInt(document.getElementById('timerLength').value);
     let maxScore = parseInt(document.getElementById('maxScore').value);
 
+    if(nsfw) {
+        document.getElementById("light").disabled = true;
+        document.getElementById("dark").disabled = false;
+        document.getElementById("title").innerHTML = "Guessphrase ~ After Dark"
+
+    } else {
+        document.getElementById("light").disabled = false;
+        document.getElementById("dark").disabled = true;
+        document.getElementById("title").innerHTML = "Guessphrase"
+
+    }
+
+
+
     if(timerLength) {
         TIMER_LENGTH = timerLength;
     }
@@ -310,3 +328,4 @@ function checkSettings() {
         MAX_SCORE = maxScore;
     }
 }
+
