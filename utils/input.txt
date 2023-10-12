@@ -1,75 +1,59 @@
-Almond
-Bamboo
-Banana
-Blackberry
-Blueberry
-Brier
-Cabbage
-Carrot
-Cherry
-Chestnut
-Clover
-Coconut
-Cotton
-Daisy
-Dogwood
-Durian
-Eucalyptus
-Evergreen
-Ferns
-Fennel
-Fig
-Flax
-Garlic
-Grapefruit
-Grapevine
-Grass
-Harlequin
-Hemp
-Ivy
-Juniper
-Leek
-Lettuce
-Lilac
-Magnolia
-Maize
-Mango
-Maple
-Mesquite
-Milkweed
-Nettle
-Nightshade
-Oak tree
-Oliv
-Orange
-Parsley
-Parsnip
-Pine
-Pineapple
-Pistachio
-Plantain
-Poison ivy
-Poppy
-Potato
-Raspberry
-Rice
-Rhubarb
-Saffron
-Rosemarry
-Rye
-Strawberry
-Sugarcane
-Sunflower
-Plum
-Sweet potato
-Sycamore
-Tea
-Thistle
-Tomato
-Tobacco
-Thyme
-Tulip
-Vanilla
-Walnut
-Wheat
-Yam
+Accountant
+Auditor
+Aircraft mechanic
+EMT
+Pilor
+Car mechanic
+Engineer
+Architect
+Clown
+Police
+Widlife officer
+Truck mechanic
+Bellhop
+Baker
+Bartender
+Bill collector
+Painter
+Musician
+Chemist
+Welder
+Brickmason
+Biologist
+Chemist
+Bus driver
+Butcher
+Weatherman
+Farmer
+Carpenter
+Cashier
+Receptionist
+Programmer
+Civil engineer
+Cook
+Construction
+Chef
+Judge
+Lawyer
+Prosecutor
+Promoter
+Manager
+Actor / Actress
+Detective
+Nutritionist
+Doctor
+Teacher
+Professor
+Dispatcher
+Derrick operator
+Dentist
+Optometrist
+Podiatrist
+Electrician
+Prinicpal
+President
+Fire fighter
+Clerk
+Forester
+Mortician
+Hairdresser
