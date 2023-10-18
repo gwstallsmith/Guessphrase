@@ -35,7 +35,7 @@ To get started with Guessphrase:
 
 1. **Visit the Game:** Go to [https://gwstallsmith.github.io/Guessphrase/](https://gwstallsmith.github.io/Guessphrase/).
 
-2. **Create or Join a Room:** Start a new game and share the room code with your friends. They can join your room to play together.
+2. **Choose a mobile device to pass around:** Choose a mobile device to pass around during play.
 
 3. **Game Rules:** Review the game rules and make sure everyone understands how to play.
 
