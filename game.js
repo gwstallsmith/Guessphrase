@@ -76,7 +76,7 @@ class Timer {
             this.tickTock();
         } else {
             clearInterval(this.intervalId_);
-            document.getElementById("textBar").style = "border-color:rgb(70,120,160)"
+            document.getElementById("textBar").style = "border-color:white"
             this.alarm_.play();
         }
     }
