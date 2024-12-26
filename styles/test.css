@@ -232,4 +232,5 @@ button:active {
     float:right;
     max-width:75px;
     text-align:right;
+    text-justify: right;
 }
