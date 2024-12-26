@@ -31,15 +31,18 @@
 
   <main class="menu" id="settings">
     After Dark (NSFW) <input class="settingsInput" type="checkbox" id="nsfw"><br><br>
-    Timer Seconds <input class="settingsInput" type="number" id="timerLength" name="quantity" min="1" step="1" value="60"><br><br>
+    Timer Seconds <input class="settingsInput" type="number" pattern="\d*" id="timerLength" name="quantity" min="1" step="1" value="60"><br><br>
     Max Score <input class="settingsInput" type="number" id="maxScore" name="quantity" min="1" step="1" value="7"><br><br>
+
+    Full Reset <button class="settingsInput" onclick="location.reload()">Reset</button><br><br>
+
     <button class="grid-footer-item"onclick="settings()">
       Back
     </button>
   </main>
 
   <main class="menu" id="howToPlay">
-    <ol style="font-size:12px;">
+    <ol style="font-size:9px;">
       <li>Setup</li>
         <ul>
           <li>Divide players into two teams</li>
@@ -53,20 +56,19 @@
           <li>The player holding the device must give clues, gestures, actions, to describe the word or phrase</li>
           <li>DO NOT SAY THE PHRASE OR ANY PART OF THE PHRASE</li>
           <li>Their team guesses phrase displayed based on the hints</li>
-          <li>Once guessed, pass the device to the next player</li>
+          <li>Once the phrase is guessed, pass the device to the next player</li>
           <li>Whichever team is not holding the device when the timer ends receives a point</li>
           <li>Pass to next player and continue</li>
         </ul>
       <br><li>Winning</li>
         <ul>
-          <li>First team to collect the maximum points wins</li>
+          <li>First team to collect the maximum points wins (default 7)</li>
         </ul>
       <br><li>Tips</li>
         <ul>
-          <li>You can press "NEXT" as much as you want. If you can't describe the word or phrase, just go to the next</li>
+          <li>You can press "NEXT" as much as you want. If you can't describe the word or phrase, just go to the next phrase</li>
           <li>Hot potato rules, if you're holding the device when the timer goes off, the other team gets a point. Pass it fast!</li>
         </ul>
-      <br><li>If you have questions, comments, concerns, send them to gwstallsmith@gmail.com</li>
     </ol>
 
     <button class="grid-footer-item" onclick="howToPlay()">
