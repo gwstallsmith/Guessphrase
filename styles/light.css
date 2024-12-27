@@ -19,6 +19,8 @@ body {
 main {
     background-color:rgb(50,70,90);
     max-width: 920px;
+
+
     margin-left: auto;
     margin-right: auto;
     align-items: center;
@@ -29,15 +31,6 @@ main {
     border-color:rgb(70,120,160);
 
 
-    /* Taken from: https://projects.verou.me/css3patterns/#japanese-cube */
-    background-image: linear-gradient(30deg, rgb(50,50,70) 12%, transparent 12.5%, transparent 87%, rgb(50,50,70) 87.5%, rgb(50,50,70)),
-                      linear-gradient(150deg, rgb(50,50,70) 12%, transparent 12.5%, transparent 87%, rgb(50,50,70) 87.5%, rgb(50,50,70)),
-                      linear-gradient(30deg, rgb(50,50,70) 12%, transparent 12.5%, transparent 87%, rgb(50,50,70) 87.5%, rgb(50,50,70)),
-                      linear-gradient(150deg, rgb(50,50,70) 12%, transparent 12.5%, transparent 87%, rgb(50,50,70) 87.5%, rgb(50,50,70)),
-                      linear-gradient(60deg, rgb(120,120,140) 25%, transparent 25.5%, transparent 75%, rgb(120,120,140) 75%, rgb(120,120,140)),
-                      linear-gradient(60deg, rgb(120,120,140) 25%, transparent 25.5%, transparent 75%, rgb(120,120,140) 75%, rgb(120,120,140));
-    background-size: 80px 140px;
-    background-position: 0px 0px, 0px 0px, 40px 70px, 40px 70px, 0px 0px, 40px 70px;
 
     color:white;
 }
@@ -66,17 +59,17 @@ button:active {
     color:white;
     background-color:rgb(20,20,20);
   
-    min-height:175px;
+    min-height:150px;
 
     margin-bottom:5%;
     
     padding:5%;
 
-    font-size:36px;
-
+    font-size:30px;
+    
 
     border:5px solid;
-    border-color:rgb(70,120,160);
+    border-color:white;
 
     box-shadow: 0px 10px 20px  black ;
 
@@ -138,7 +131,6 @@ button:active {
 
     
 
-    border-radius:5%;
     border:5px solid;
 
     box-shadow: 0px 10px 20px  black ;
@@ -240,4 +232,7 @@ button:active {
     float:right;
     max-width:75px;
     text-align:right;
+    text-justify: right;
+    color:black;
+
 }
