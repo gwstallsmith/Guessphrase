@@ -1,390 +1,661 @@
-Acacia Boat
-Acacia Boat with Chest
-Armor Stand
-Bamboo Raft
-Bamboo Raft with Chest
-Beetroot Seeds
-Birch Boat
-Birch Boat with Chest
-Bottle o' Enchanting
-Bow
-Bucket
-Bucket of Axolotl
-Bucket of Cod
-Bucket of Pufferfish
-Bucket of Salmon
-Bucket of Tadpole
-Bucket of Tropical Fish
-Carrot
-Cherry Boat
-Cherry Boat with Chest
-Cocoa Beans
-Crossbow
-Dark Oak Boat
-Dark Oak Boat with Chest
-Egg
-End Crystal
-Ender Pearl
-Eye of Ender
-Fire Charge
-Firework Rocket
-Fishing Rod
-Flint and Steel
-Glow Berries
-Glow Item Frame
-Item Frame
-Jungle Boat
-Jungle Boat with Chest
-Kelp
-Lava Bucket
-Lead
-Lingering Potion
-Mangrove Boat
-Mangrove Boat with Chest
-Melon Seeds
-Minecart
-Minecart with Chest
-Minecart with Command Block
-Minecart with Furnace‌
-Minecart with Hopper
-Minecart with TNT
-Nether Wart
-Oak Boat
-Oak Boat with Chest
-Painting
-Pitcher Pod
-Potato
-Powder Snow Bucket
-Pumpkin Seeds
-Redstone Dust
-Snowball
-Splash Potion
-Spruce Boat
-Spruce Boat with Chest
-String
-Sweet Berries
-Torchflower Seeds
-Trident
-Water Bucket
-Wheat Seeds
-Amethyst Shard
-Apple
-Arrow
-Baked Potato
-Beetroot
-Beetroot Soup
-Black Dye
-Blue Dye
-Bone
-Bone Meal
-Book
-Book and Quill
+Toothbrush
+Toothpaste
+Shampoo
+Conditioner
+Soap
+Body lotion
+Hairbrush
+Towel
+Toilet paper
+Hand sanitizer
+Dish soap
+Sponges
+Paper towels
+Trash bags
+Trash can
+Cleaning wipes
+Vacuum cleaner
+Mop
+Broom
+Dustpan
+Laundry detergent
+Fabric softener
+Laundry basket
+Iron
+Ironing board
+Hangers
+Scissors
+Stapler
+Tape
+Paper clips
+Notebooks
+Printer paper
+Pens
+Pencils
+Markers
+Highlighters
+Erasers
+Ruler
+Calculator
+Calendar
+Post-it notes
+Envelopes
+Stamps
+File folders
+Binder
+Desk organizer
+Paper shredder
+Letter opener
+Tape dispenser
+Box cutter
+Staple remover
+Glue stick
+Whiteboard
+Whiteboard markers
+Chalk
+Chalkboard eraser
+Picture frame
+Wall clock
+Umbrella
+Sunglasses
+Hat
+Wallet
+Purse
+Keys
+Cell phone
+Cell phone charger
+Headphones
+Laptop
+Laptop charger
+TV remote
+Television
+Radio
+Speakers
+Alarm clock
+Flashlight
+Batteries
+Extension cord
+Power strip
+Surge protector
+Smoke detector
+Fire extinguisher
+First aid kit
+Band-aids
+Thermometer
+Prescription medication
+Over-the-counter medication
+Vitamins
+Tissues
+Cotton balls
+Cotton swabs
+Nail clippers
+Nail file
+Tweezers
+Razor
+Shaving cream
+Deodorant
+Perfume
+Cologne
+Hair ties
+Hair clips
+Toothpicks
+Floss
+Mouthwash
+Lip balm
+Sunscreen
+Bug spray
+Hand lotion
+Chapstick
+Makeup
+Makeup remover
+Eyeliner
+Mascara
+Foundation
+Blush
+Eyeshadow
+Lipstick
+Nail polish
+Nail polish remover
+Cotton pads
+Bathrobe
+Pajamas
+Slippers
+Shoes
+Socks
+Boots
+Sandals
+Sneakers
+Dress shoes
+Belt
+Gloves
+Scarf
+Jacket
+Coat
+Sweater
+Hoodie
+T-shirt
+Jeans
+Shorts
+Skirt
+Dress
+Button-up shirt
+Blouse
+Sweatpants
+Workout clothes
+Tie
+Sunglasses case
+Watch
+Wristband
+Earrings
+Necklace
+Bracelet
+Ring
+Hairband
+Headband
+Backpack
+Tote bag
+Messenger bag
+Lunchbox
+Water bottle
+Thermos
+Coffee mug
+Travel mug
+Cup
+Plate
 Bowl
-Bread
-Brown Dye
-Brush
-Bundle
-Carrot on a Stick
-Chainmail Boots
-Chainmail Chestplate
-Chainmail Helmet
-Chainmail Leggings
-Chorus Fruit
+Spoon
+Fork
+Knife
+Chopsticks
+Drinking glass
+Pitcher
+Cutting board
+Knife set
+Can opener
+Peeler
+Grater
+Sifter
+Colander
+Mixing bowl
+Frying pan
+Saucepan
+Stockpot
+Baking sheet
+Pot holder
+Oven mitt
+Microwave
+Toaster
+Blender
+Food processor
+Coffee maker
+Kettle
+Toaster oven
+Slow cooker
+Rice cooker
+Dishwasher
+Refrigerator
+Freezer
+Stove
+Oven
+Tupperware
+Ziploc bags
+Paper napkins
+Cloth napkins
+Plunger
+Air freshener
+Laundry hamper
+Shower curtain
+Shower mat
+Toilet brush
+Toilet plunger
+Laundry detergent pods
+Lint roller
+Shoe rack
+Shoe polish
+Air purifier
+Space heater
+Fan
+Thermostat
+Electric blanket
+Fireplace
+Book
+Magazine
+Newspaper
+Puzzle
+Board game
+Playing cards
+Laptop sleeve
+USB drive
+External hard drive
+Charging cable
+Phone case
+Phone stand
+Tripod
+Camera
+Camcorder
+Smartwatch
+Headphones case
+Bluetooth speaker
+Video game console
+Video games
+Game controller
+Surround sound system
+Projector
+DVDs
+Blu-rays
+DVD player
+Blu-ray player
+DVD storage case
+Bookends
+Journal
+Diary
+Calendar
+Photo album
+Scrapbook
+Business cards
+Paperweight
+Clipboard
+Wall hooks
+Door mat
+Welcome mat
+Floor rug
+Throw blanket
+Cushion
+Pillow
+Mattress
+Bed frame
+Comforter
+Bedding
+Sheets
+Pillowcases
+Blanket
+Luggage
+Suitcase
+Duffel bag
+Backpack
+Fanny pack
+Handbag
+Diaper bag
+Messenger bag
+Briefcase
+Briefcase lock
+Wallet chain
+Keychain
+Lanyard
+E-cigarette
+Cigarettes
+Cigar
+Lighter
+Matches
+Candle
+Incense
+Candle holder
+Wax melts
+Diffuser
+Room spray
+Doorstop
+Padlock
+Timer
+Hourglass
+Watch band
+Phone charger dock
+Wall charger
+Phone screen protector
+Tablet
+Tablet stand
+Laptop stand
+Laptop cooler
+Printer
+Ink cartridges
+Printer toner
+Label maker
+Clipboard
+Postage scale
+Mailbox
+Letterbox
+Mail organizer
+Key holder
+Toolbox
+Measuring tape
+Wrench
+Hammer
+Screwdriver
+Screws
+Nails
+Drill
+Drill bits
+Level
+Duct tape
+Electrical tape
+Super glue
+Lubricant
+Glue gun
+Pliers
+Tape measure
+Paintbrush
+Paint roller
+Paint tray
+Extension pole
+Drop cloth
+Canvas tarp
+Work gloves
+Safety goggles
+Earplugs
+Face mask
+Hard hat
+First aid kit
+Fire extinguisher
+Emergency kit
+Roadside emergency kit
+Car jumper cables
+Car tire inflator
+Ice scraper
+Car phone mount
+Car air freshener
+Tire pressure gauge
+Windshield wipers
+Windshield washer fluid
+Car cleaning supplies
+Spare tire
+Vehicle registration
+Car insurance
+Car key
+Key fob
+Car battery
+Car charger
+Tire repair kit
+Flashlight
+Spare change
+Travel pillow
+Foldable chair
+Camping tent
+Camping stove
+Sleeping bag
+Sleeping pad
+Hiking boots
+Hiking backpack
+Cooler
+Thermal blanket
+Walking stick
+Flashlight batteries
+Binoculars
+Thermometer
 Compass
-Cooked Chicken
-Cooked Cod
-Cooked Mutton
-Cooked Porkchop
-Cooked Rabbit
-Cooked Salmon
-Cookie
-Cyan Dye
-Debug Stick‌[JE only]
-Diamond Axe
-Diamond Boots
-Diamond Chestplate
-Diamond Helmet
-Diamond Hoe
-Diamond Horse Armor
-Diamond Leggings
-Diamond Pickaxe
-Diamond Shovel
-Diamond Sword
-Dried Kelp
-Elytra
-Empty Map
-Enchanted Book
-Enchanted Golden Apple
-Goat Horn
-Glass Bottle
-Glow Ink Sac
-Gold Ingot
-Golden Apple
-Golden Axe
-Golden Boots
-Golden Carrot
-Golden Chestplate
-Golden Helmet
-Golden Hoe
-Golden Horse Armor
-Golden Leggings
-Golden Pickaxe
-Golden Shovel
-Golden Sword
-Gray Dye
-Green Dye
-Honeycomb
-Honey Bottle
-Ink Sac
-Iron Axe
-Iron Boots
-Iron Chestplate
-Iron Helmet
-Iron Hoe
-Iron Horse Armor
-Iron Ingot
-Iron Leggings
-Iron Pickaxe
-Iron Shovel
-Iron Sword
-Knowledge Book
-Lapis Lazuli
-Leather Boots
-Leather Cap
-Leather Horse Armor
-Leather Pants
-Leather Tunic
-Light Blue Dye
-Light Gray Dye
-Lime Dye
-Magenta Dye
-Map or Explorer Map
-Melon Slice
-Milk Bucket
-Mushroom Stew
-Music Disc
-Name Tag
-Netherite Axe
-Netherite Boots
-Netherite Chestplate
-Netherite Helmet
-Netherite Hoe
-Netherite Leggings
-Netherite Pickaxe
-Netherite Shovel
-Netherite Sword
-Orange Dye
-Pink Dye
-Poisonous Potato
-Potions
-Pufferfish
-Pumpkin Pie
-Purple Dye
-Rabbit Stew
-Raw Beef
-Raw Chicken
-Raw Cod
-Raw Mutton
-Raw Porkchop
-Raw Rabbit
-Raw Salmon
-Red Dye
-Rotten Flesh
-Saddle
-Shears
-Shield
-Spectral Arrow‌
-Spider Eye
-Spyglass
-Steak
-Stone Axe
-Stone Hoe
-Stone Pickaxe
-Stone Shovel
-Stone Sword
-Sugar
-Suspicious Stew
-Tipped Arrow
-Totem of Undying
-Tropical Fish
-Turtle Shell
-Warped Fungus on a Stick
-Wheat
-White Dye
-Wooden Axe
-Wooden Hoe
-Wooden Pickaxe
-Wooden Shovel
-Wooden Sword
-Written Book
-Yellow Dye
-Angler Pottery Sherd
-Archer Pottery Sherd
-Arms Up Pottery Sherd
-Banner Pattern
-Blade Pottery Sherd
-Blaze Powder
-Blaze Rod
-Brewer Pottery Sherd
-Brick
-Burn Pottery Sherd
-Charcoal
-Clay Ball
-Clock
-Coal
-Coast Armor Trim
-Copper Ingot
-Danger Pottery Sherd
-Diamond
-Disc Fragment
-Dragon's Breath
-Dune Armor Trim
-Echo Shard
-Emerald
-Explorer Pottery Sherd
-Eye Armor Trim
-Feather
-Fermented Spider Eye
-Firework Star
-Flint
-Friend Pottery Sherd
-Ghast Tear
-Glistering Melon Slice
-Glowstone Dust
-Gold Nugget
-Gunpowder
-Heart of the Sea
-Heart Pottery Sherd
-Heartbreak Pottery Sherd
-Host Armor Trim
-Howl Pottery Sherd
-Ink Sac
-Iron Ingot
-Iron Nugget
-Lapis Lazuli
-Leather
-Magma Cream
-Miner Pottery Sherd
-Mourner Pottery Sherd
-Nautilus Shell
-Nether Brick
-Nether Quartz
-Nether Star
-Netherite Ingot
-Netherite Scrap
-Netherite Upgrade
-Paper
-Phantom Membrane
-Plenty Pottery Sherd
-Popped Chorus Fruit
-Prismarine Crystals
-Prismarine Shard
-Prize Pottery Sherd
-Rabbit Hide
-Rabbit's Foot
-Raiser Armor Trim
-Raw Copper
-Raw Gold
-Raw Iron
-Recovery Compass
-Rib Armor Trim
-Scute
-Sentry Armor Trim
-Shaper Armor Trim
-Sheaf Pottery Sherd
-Shelter Pottery Sherd
-Shulker Shell
-Silence Armor Trim
-Skull Pottery Sherd
-Slimeball
-Snort Pottery Sherd
-Spire Armor Trim
-Stick
-Tide Armor Trim
-Vex Armor Trim
-Ward Armor Trim
-Wayfinder Armor Trim
-Wild Armor Trim
-Allay
-Axolotl
-Bat
-Bee
-Blaze
-Camel
-Cat
-Cave Spider
-Chicken
-Chicken Jockey
-Cod
-Cow
-Creeper
-Dolphin
-Donkey
-Drowned
-Ender Guardian
-Ender Dragon
-Enderman
-Endermite
-Evoker
-Forx
-Frog
-Ghast
-Glow Squit
-Giant
-Goat
-Guardian
-Horse
-Hoglin
-Husk
-Illusioner
-Iron Golem
-Killer Bunny
-Llama
-Magma Cube
-Mooshroom
-Mule
-Ocelot
-Panda
-Parrot
-Phantom
-Pig
-Piglin
-Piglin Brute
-Pillager
-Polar Bear
-Pufferfish
-Rabbit
-Ravager
-Salmon
-Sheep
-Shulker
-Silverfish
-Skeleton
-Skeleton Horse
-Skeleton Horseman
-Slime
-Snow Golem
-Sniffer
-Spider
-Spider Jockey
-Squid
-Stray
-Strider
-Tadpole
-Trader Llama
-Tropical Fish
-Turtle
-Vex
-Villager
-Vindicator
-Wandering Trader
-Warden
-Witch
-Wither
-Wither Skeleton
-Wolf
-Zoglin
-Zombie
-Zombie Horse
-Zombie Villager
-Zombified Piglin
+Map
+Portable power bank
+Solar charger
+Camping lantern
+Firestarter
+Water bottle
+Hydration pack
+Granola bars
+Trail mix
+Backpacking stove
+Climbing gear
+Fishing rod
+Fishing tackle
+Tent stakes
+Folding table
+Folding chair
+Campfire grill
+S’mores ingredients
+Fishing tackle box
+Fish finder
+Sleeping pad
+Air mattress
+Battery pack
+Sewing kit
+Needles
+Thread
+Buttons
+Safety pins
+Ribbons
+Pins
+Scissors
+Measuring tape
+Fabric
+Quilt
+Yarn
+Knitting needles
+Crochet hook
+Fabric glue
+Iron-on patches
+Embroidery thread
+Embroidery hoops
+Stitch markers
+Loom kit
+Sewing machine
+Knitting kit
+Embroidery floss
+Beads
+Beading needle
+Jewelry wire
+Jump rings
+Clasps
+Chain
+Earring hooks
+Beading tools
+Craft glue
+Paint
+Brushes
+Canvases
+Acrylic paint
+Watercolors
+Paint markers
+Crayons
+Colored pencils
+Pastels
+Chalk pastels
+Markers
+Craft foam
+Pom-poms
+Craft sticks
+Googly eyes
+Pipe cleaners
+Colored paper
+Glue sticks
+Construction paper
+Tissue paper
+Craft scissors
+Craft templates
+Stamps
+Ink pads
+Stencils
+Stickers
+Scrapbooking paper
+Scrapbook stickers
+Photo corners
+Decorative scissors
+Beading kits
+Gift wrap
+Gift tags
+Ribbon
+Bows
+Wrapping paper
+Scotch tape
+Birthday cards
+Thank you cards
+Greeting cards
+Notecards
+Postcards
+Party hats
+Streamers
+Balloons
+Party favors
+Piñata
+Confetti
+Candles
+Cake toppers
+Napkins
+Plastic cutlery
+Plates
+Paper cups
+Paper straws
+Plastic cups
+Cake stand
+Party plates
+Serving trays
+Serving bowls
+Chip bowl
+Plastic tablecloth
+Plastic tableware
+Plastic cups
+Ice bucket
+Ice tray
+Blender
+Food processor
+Measuring cups
+Measuring spoons
+Grater
+Strainer
+Colander
+Tongs
+Potato peeler
+Garlic press
+Can opener
+Egg timer
+Timer
+Salt shaker
+Pepper shaker
+Sugar jar
+Spice rack
+Spice jars
+Mortar and pestle
+Oil dispenser
+Vinegar bottle
+Cooking utensils
+Cooking pot
+Frying pan
+Griddle
+Grill pan
+Stock pot
+Pressure cooker
+Crockpot
+Instant pot
+Rice cooker
+Slow cooker
+Microwave-safe containers
+Juicer
+Water pitcher
+Lemon squeezer
+Fruit basket
+Breadbox
+Drawer organizers
+Storage bins
+Storage baskets
+Plastic containers
+Tupperware
+Glass jars
+Plastic wrap
+Aluminum foil
+Freezer bags
+Ice cream scoop
+Popcorn maker
+Cotton candy machine
+Hot dog maker
+Fondue pot
+Waffle maker
+Pancake maker
+Coffee grinder
+Tea infuser
+Tea kettle
+Teapot
+Chafing dish
+Serving spoons
+Butter dish
+Napkin holder
+Coasters
+Table runner
+Placemat
+Fork rest
+Candle holder
+Tissue box holder
+Coat hanger
+Clothesline
+Clothespins
+Ironing board cover
+Shower curtain hooks
+Shower caddy
+Shower shelf
+Shower organizer
+Toilet seat cover
+Toilet roll holder
+Bathroom shelf
+Bathroom organizer
+Wall mirror
+Magnifying mirror
+Medicine cabinet
+Bathroom scales
+Wastepaper basket
+Bandages
+Hydrocortisone cream
+Antiseptic wipes
+Cotton swabs
+Gauze pads
+Hydrocortisone cream
+Hand lotion
+Facial cleanser
+Shaving cream
+Deodorant
+Toothpaste
+Floss
+Mouthwash
+Body wash
+Shampoo
+Conditioner
+Facial cleanser
+Toothbrush holder
+Electric toothbrush
+Hair dryer
+Hair straightener
+Curling iron
+Flat iron
+Hair clippers
+Razors
+Shaving brush
+Hair removal cream
+Manicure kit
+Pedicure kit
+Nail polish remover
+Eyelash curler
+Tweezers
+Earbuds
+Smartwatch
+Phone charger
+Charger cable
+Wireless headphones
+Portable speaker
+Power bank
+Camera case
+Tripod
+Cell phone case
+Laptop case
+Laptop sleeve
+Earphones
+Smartphone
+Tablet
+E-reader
+E-book
+Headset
+VR headset
+Fitness tracker
+Drone
+Smart thermostat
+Smart plugs
+Smart home devices
+Voice assistant
+Wireless router
+Ethernet cable
+Home phone
+Fax machine
+Printer
+Scanner
+Security camera
+Smart light bulbs
+Smart lock
+Bluetooth speaker
+Smart thermostat
+Smart home devices
+Voice assistant
+Wireless router
+Ethernet cable
