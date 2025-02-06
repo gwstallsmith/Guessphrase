@@ -1,375 +1,100 @@
-Influenza  
-Tuberculosis  
-Malaria  
-HIV/AIDS  
-Hepatitis B  
-Hepatitis C  
-Pneumonia  
-COVID-19  
-Dengue fever  
-Measles  
-Chickenpox  
-Mumps  
-Rubella  
-Tetanus  
-Whooping cough 
-Polio  
-Leprosy  
-Rabies  
-Lyme disease  
-Syphilis  
-Cholera  
-Zika virus  
-Ebola  
-Lassa fever  
-Yellow fever  
-West Nile virus  
-Norovirus  
-Rotavirus  
-Legionnaires' disease  
-Giardiasis  
-Salmonellosis  
-Anthrax  
-Plague  
-Brucellosis  
-Diphtheria  
-Hantavirus  
-Hookworm infection  
-Leptospirosis  
-Toxoplasmosis  
-Histoplasmosis  
-Chikungunya  
-Onchocerciasis
-Schistosomiasis  
-Trichinosis  
-Trypanosomiasis 
-Yaws  
-Psittacosis  
-Q fever  
-Rocky Mountain spotted fever  
-Parvovirus B19  
-Creutzfeldt-Jakob disease  
-Alzheimer’s disease  
-Parkinson’s disease  
-Multiple sclerosis  
-Epilepsy  
-Huntington’s disease  
-Amyotrophic lateral sclerosis 
-Migraine  
-Stroke  
-Narcolepsy  
-Meningitis  
-Guillain-Barré syndrome  
-Tourette syndrome  
-Bipolar disorder  
-Schizophrenia  
-Depression  
-Obsessive-compulsive disorder 
-Post-traumatic stress disorder  
-Anxiety disorders  
-Autism spectrum disorder  
-Attention deficit hyperactivity disorder 
-Hypertension  
-Coronary artery disease  
-Myocardial infarction
-Heart attack
-Atherosclerosis  
-Arrhythmia  
-Congenital heart disease  
-Cardiomyopathy  
-Endocarditis  
-Heart failure  
-Rheumatic heart disease  
-Deep vein thrombosis  
-Aortic aneurysm  
-Pulmonary hypertension  
-Peripheral artery disease  
-Asthma  
-Chronic obstructive pulmonary disease
-Pulmonary fibrosis  
-Pneumothorax  
-Lung cancer  
-Bronchitis  
-Cystic fibrosis  
-Pleural effusion  
-Pulmonary embolism  
-Sarcoidosis  
-Obstructive sleep apnea  
-Asbestosis  
-Silicosis  
-Crohn’s disease  
-Ulcerative colitis  
-Irritable bowel syndrome
-Peptic ulcer disease  
-Gastroesophageal reflux disease  
-Hepatitis 
-Cirrhosis  
-Pancreatitis  
-Colon cancer  
-Celiac disease  
-Diverticulitis  
-Gallstones  
-Hemorrhoids  
-Gastritis  
-Hernia  
-Diabetes
-Hyperthyroidism  
-Hypothyroidism  
-Addison’s disease  
-Cushing’s syndrome  
-Acromegaly  
-Metabolic syndrome  
-Phenylketonuria 
-Osteoporosis  
-Rickets  
-Gout  
-Hypoglycemia  
-Hyperparathyroidism  
-Lupus  
-Rheumatoid arthritis  
-Psoriasis  
-Multiple sclerosis  
-Type 1 diabetes  
-Celiac disease  
-Hashimoto’s thyroiditis  
-Sjögren’s syndrome  
-Myasthenia gravis  
-Vasculitis  
-Eczema  
-Acne  
-Psoriasis  
-Melanoma  
-Vitiligo  
-Rosacea  
-Dermatitis  
-Scabies  
-Hives 
-Cellulitis  
-Alopecia areata  
-Basal cell carcinoma  
-Squamous cell carcinoma  
-Sunburn  
-Ringworm
-Impetigo  
-Actinic keratosis  
-Boils
-Lichen planus  
-Down syndrome  
-Cystic fibrosis  
-Sickle cell disease  
-Hemophilia  
-Marfan syndrome  
-Tay-Sachs disease  
-Duchenne muscular dystrophy  
-Huntington’s disease  
-Thalassemia  
-Fragile X syndrome  
-Noonan syndrome  
-Ehlers-Danlos syndrome  
-Wilson’s disease  
-Rett syndrome  
-Prader-Willi syndrome  
-Angelman syndrome  
-Turner syndrome  
-Klinefelter syndrome  
-Albinism  
-Polycystic kidney disease  
-Spinal muscular atrophy  
-Neurofibromatosis  
-Williams syndrome  
-Cri-du-chat syndrome  
-Phenylketonuria  
-Achondroplasia  
-Fibromyalgia  
-Chronic fatigue syndrome  
-Temporomandibular joint disorder 
-Interstitial cystitis  
-Endometriosis  
-Polycystic ovary syndrome  
-Erectile dysfunction  
-Benign prostatic hyperplasia  
-Prostate cancer  
-Ovarian cancer  
-Cervical cancer  
-Breast cancer  
-Leukemia  
-Lymphoma  
-Multiple myeloma  
-Glioblastoma  
-Esophageal cancer  
-Stomach cancer  
-Pancreatic cancer  
-Liver cancer  
-Bladder cancer  
-Kidney cancer  
-Testicular cancer  
-Bone cancer  
-Thyroid cancer  
-Uterine cancer  
-Nasopharyngeal carcinoma  
-Melioidosis  
-Tetanus  
-Neonatal sepsis  
-Histiocytosis  
-Hemolytic uremic syndrome  
-Tay-Sachs disease  
-Thrombocytopenia  
-Wegener’s granulomatosis  
-Alkaptonuria  
-Chronic sinusitis
-Schizophrenia
-Bipolar disorder
-Major depressive disorder
-Persistent depressive disorder
-Seasonal affective disorder
-Postpartum depression
-Psychotic depression
-Catatonia
-Schizoaffective disorder
-Brief psychotic disorder
-Delusional disorder
-Folie à deux
-Substance-induced psychotic disorder
-Paranoid schizophrenia
-Disorganized schizophrenia
-Residual schizophrenia
-Undifferentiated schizophrenia
-Depersonalization-derealization disorder
-Dissociative identity disorder
-Dissociative amnesia
-Dissociative fugue
-Generalized anxiety disorder
-Panic disorder
-Social anxiety disorder
-Specific phobias
-Agoraphobia
-Separation anxiety disorder
-Selective mutism
-Obsessive-compulsive disorder
-Body dysmorphic disorder
-Hoarding disorder
-Trichotillomania
-Excoriation disorder
-Post-traumatic stress disorder
-Acute stress disorder
-Adjustment disorder
-Reactive attachment disorder
-Disinhibited social engagement disorder
-Attention deficit hyperactivity disorder
-Oppositional defiant disorder
-Conduct disorder
-Intermittent explosive disorder
-Pyromania
-Kleptomania
-Antisocial personality disorder
-Borderline personality disorder
-Histrionic personality disorder
-Narcissistic personality disorder
-Avoidant personality disorder
-Dependent personality disorder
-Obsessive-compulsive personality disorder
-Paranoid personality disorder
-Schizoid personality disorder
-Schizotypal personality disorder
-Somatic symptom disorder
-Illness anxiety disorder
-Conversion disorder
-Factitious disorder
-Munchausen syndrome
-Munchausen syndrome by proxy
-Pica
-Rumination disorder
-Eating disorder
-Anorexia nervosa
-Bulimia nervosa
-Binge-eating disorder
-Night eating syndrome
-Sleepwalking
-Sleep terrors
-Nightmare disorder
-Narcolepsy
-Insomnia disorder
-Hypersomnolence disorder
-Restless legs syndrome
-Circadian rhythm sleep disorder
-Delayed sleep phase disorder
-Non-24-hour sleep-wake disorder
-Shift work sleep disorder
-Sexual dysfunction disorder
-Erectile disorder
-Female sexual arousal disorder
-Premature ejaculation
-Delayed ejaculation
-Female orgasmic disorder
-Paraphilic disorders
-Exhibitionistic disorder
-Voyeuristic disorder
-Frotteuristic disorder
-Sexual masochism disorder
-Sexual sadism disorder
-Pedophilic disorder
-Fetishistic disorder
-Transvestic disorder
-Gender dysphoria
-Alcohol use disorder
-Cannabis use disorder
-Hallucinogen use disorder
-Inhalant use disorder
-Opioid use disorder
-Stimulant use disorder
-Tobacco use disorder
-Gambling disorder
-Internet gaming disorder
-Compulsive shopping disorder
-Compulsive sexual behavior disorder
-Intermittent explosive disorder
-Pathological lying
-Imposter syndrome
-Burnout syndrome
-Perfectionism disorder
-Low self-esteem disorder
-Loneliness disorder
-Emotional detachment disorder
-Hyper-empathy syndrome
-Somatization disorder
-Mixed anxiety-depressive disorder
-Cyclothymic disorder
-Dysthymic disorder
-Double depression
-Melancholic depression
-Atypical depression
-Recurrent brief depression
-Post-schizophrenic depression
-Treatment-resistant depression
-Psychotic mania
-Dysphoric mania
-Unspecified bipolar disorder
-Ultradian cycling bipolar disorder
-Rapid cycling bipolar disorder
-Mixed state bipolar disorder
-Substance-induced mood disorder
-Premenstrual dysphoric disorder
-Endogenous depression
-Situational depression
-Neurotic depression
-Masked depression
-Agitated depression
-Delirium
-Dementia
-Frontotemporal dementia
-Lewy body dementia
-Vascular dementia
-Traumatic brain injury-related neurocognitive disorder
-Amnestic disorder
-Developmental coordination disorder
-Stereotypic movement disorder
-Tourette syndrome
-Provisional tic disorder
-Autism spectrum disorder
-Asperger’s syndrome
-Rett syndrome
-Childhood disintegrative disorder
-Social communication disorder
-Dyslexia
-Dyscalculia
-Dysgraphia
+Respiratory Infection
+Sexually Trasmitted Infections
+Heart Disease
+Addiction
+Suicide
+Workplace Accident
+Car Crash
+Buried Alive
+Snake Bite
+Spider Bite
+Frostbite
+Immolation
+Burned Alive
+Plane Crash
+Boat Crash
+Hanged
+Heat Stroke
+Stroke
+Heart Attack
+Murder
+Serial Killer
+War
+Cancer
+Wood Chipper
+Defenestration
+Suffocation
+Nuclear Bomb
+Radiation
+Allergies
+Explosion
+Electric Chair
+Electrocution
+Choking
+Guillotine
+Chlorine Gas
+Mustard Gas
+Alcoholism
+Alcohol Poisoning
+Shot
+Blunt Force Trauma
+Shrapnel
+Bleed Out
+Parasite
+Tuberculosis
+Firing Squad
+Pulmonary Embolism
+Sepsis
+Crushed
+Alligator Roll
+Broken Neck
+Broken Spine
+Fireworks
+Poison
+Venom
+Decompression Sickness
+Internal Bleeding
+Aneurysm
+Gangrene
+Decapitation
+Fall Down Stairs
+Grenade
+Avalanche
+Motorcycle Crash
+Overdose
+Asthma Attack
+Natural Causes
+Old Age
+Stabbed
+Head Trauma
+Drawn and Quartered
+Lethal Injection
+Gang Violence
+School Shooting
+Carbon Monoxide
+Stampede
+Disemboweled
+Landmine
+Improvised Explosive Device
+Attack Dog
+Drone
+Eaten Alive
+Piranhas
+Lightning Strike
+Quicksand
+Dehydration
+Ebola
+COVID-19
+Delta P
+Gas Leak
+Asphyxiation
+Drown
+Leprosy
+Scurvy
+Execution
+Cyanide
+Terrorism
+Stoned
+Falling
+Mauled
+Maceration
