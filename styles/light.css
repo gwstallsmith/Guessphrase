@@ -234,5 +234,6 @@ button:active {
     text-align:right;
     text-justify: right;
     color:black;
+    direction: rtl;
 
 }

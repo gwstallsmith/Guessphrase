@@ -184,7 +184,7 @@ class GameManager {
             if(selectText == "Select Category") {
                 document.getElementById("textBar").innerHTML = "SELECT CATEGORY"
             } else {
-                if(!this.categoryArray_) {
+                if(!this.categoryArray_)  {
                     this.category_ = selectText;
                     this.categoryArray_ = CATEGORIES[CATEGORY_MAP.find((element)=>{ return element[0] == selectText; })[1]];
                 }
