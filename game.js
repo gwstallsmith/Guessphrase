@@ -170,7 +170,7 @@ class GameManager {
     nextButton() {
         if(this.mode_ == "Select") {
             document.getElementById("textBar").innerHTML = CATEGORY_MAP[this.categoryItr_][0];
-            let nsfwOffset = nsfw ? 0 : 4;
+            let nsfwOffset = nsfw ? 0 : 5;
             this.categoryItr_ = (this.categoryItr_ + 1) % (CATEGORY_MAP.length - nsfwOffset);
         } else if (this.mode_ == "Round") {
             document.getElementById("textBar").innerHTML = this.categoryArray_[Math.floor(Math.random() * this.categoryArray_.length)];
