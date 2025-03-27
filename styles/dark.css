@@ -228,3 +228,8 @@ button:active {
     max-width:75px;
     text-align:right;
 }
+
+.customInput {
+    float:right;
+    font-size:12px;
+}

@@ -235,3 +235,8 @@ button:active {
     text-justify: right;
     color:black;
 }
+
+.customInput {
+    float:right;
+    font-size:12px;
+}
