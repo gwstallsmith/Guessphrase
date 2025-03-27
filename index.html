@@ -36,13 +36,15 @@
     Timer Seconds <input class="settingsInput" type="number" pattern="\d*" id="timerLength" name="quantity" min="1" step="1" value="60"><br><br>
     Max Score <input class="settingsInput" type="number" id="maxScore" name="quantity" min="1" step="1" value="7"><br><br>
 
-    Full Reset <button class="settingsInput" onclick="location.reload()">Reset</button><br><br>
 
     <p style="display:grid;grid-template-columns:repeat(2, 1fr);font-size:12px;">Select "Custom" category to play your custom word list
     <textarea class="customInput" id="custom" placeholder="Custom word list. Seperated by commas (,)"></textarea>
     </p>  
 
     <br>
+    Full Reset <button class="settingsInput" onclick="location.reload()">Reset</button><br><br>
+
+
     <button class="grid-footer-item"onclick="settings()">
       Back
     </button>
