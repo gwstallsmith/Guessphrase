@@ -239,4 +239,5 @@ button:active {
 .customInput {
     float:right;
     font-size:12px;
+    min-height: 110%;
 }
